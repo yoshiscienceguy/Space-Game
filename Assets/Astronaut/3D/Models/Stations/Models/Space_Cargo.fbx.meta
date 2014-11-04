@@ -1,0 +1,189 @@
+fileFormatVersion: 2
+guid: 7ab697888a7b1f445b653d0a5b87324b
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Body
+    100002: Left_Claw
+    100004: Left_Claw 1
+    100006: Left_Claw2
+    100008: LeftArm
+    100010: LeftClaw
+    100012: LeftUpper
+    100014: polySurface36
+    100016: Right_Arm
+    100018: Right_Claw
+    100020: Right_Claw 1
+    100022: Right_Pivot
+    100024: RightUpper
+    100026: //RootNode
+    100028: Wings
+    400000: Body
+    400002: Left_Claw
+    400004: Left_Claw 1
+    400006: Left_Claw2
+    400008: LeftArm
+    400010: LeftClaw
+    400012: LeftUpper
+    400014: polySurface36
+    400016: Right_Arm
+    400018: Right_Claw
+    400020: Right_Claw 1
+    400022: Right_Pivot
+    400024: RightUpper
+    400026: //RootNode
+    400028: Wings
+    2300000: Body
+    2300002: Left_Claw
+    2300004: Left_Claw 1
+    2300006: Left_Claw2
+    2300008: LeftArm
+    2300010: LeftClaw
+    2300012: LeftUpper
+    2300014: polySurface36
+    2300016: Right_Arm
+    2300018: Right_Claw
+    2300020: Right_Claw 1
+    2300022: Right_Pivot
+    2300024: RightUpper
+    2300026: Wings
+    3300000: Body
+    3300002: Left_Claw
+    3300004: Left_Claw 1
+    3300006: Left_Claw2
+    3300008: LeftArm
+    3300010: LeftClaw
+    3300012: LeftUpper
+    3300014: polySurface36
+    3300016: Right_Arm
+    3300018: Right_Claw
+    3300020: Right_Claw 1
+    3300022: Right_Pivot
+    3300024: RightUpper
+    3300026: Wings
+    4300000: RightUpper
+    4300002: Right_Pivot
+    4300004: Right_Arm
+    4300006: Left_Claw
+    4300008: Right_Claw
+    4300010: Left_Claw2
+    4300012: LeftUpper
+    4300014: LeftArm
+    4300016: polySurface36
+    4300018: LeftClaw
+    4300020: Right_Claw
+    4300022: Left_Claw
+    4300024: Wings
+    4300026: Body
+    7400000: Loader
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Loader
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: LeftUpper
+        weight: 1
+      - path: LeftUpper/LeftArm
+        weight: 1
+      - path: LeftUpper/LeftArm/LeftClaw
+        weight: 1
+      - path: LeftUpper/LeftArm/LeftClaw/Left_Claw
+        weight: 1
+      - path: LeftUpper/LeftArm/LeftClaw/Right_Claw
+        weight: 1
+      - path: LeftUpper/LeftArm/polySurface36
+        weight: 1
+      - path: RightUpper
+        weight: 1
+      - path: RightUpper/Right_Pivot
+        weight: 1
+      - path: RightUpper/Right_Pivot/Right_Arm
+        weight: 1
+      - path: RightUpper/Right_Pivot/Right_Arm/Left_Claw 1
+        weight: 1
+      - path: RightUpper/Right_Pivot/Right_Arm/Left_Claw 1/Left_Claw2
+        weight: 1
+      - path: RightUpper/Right_Pivot/Right_Arm/Left_Claw 1/Right_Claw 1
+        weight: 1
+      - path: Wings
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
