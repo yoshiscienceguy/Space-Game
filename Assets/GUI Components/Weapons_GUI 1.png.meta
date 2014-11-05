@@ -1,0 +1,135 @@
+fileFormatVersion: 2
+guid: 2d954e3a1b9dbfa44924ba590387d2bf
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: LMG
+    21300002: SMG
+    21300004: Launcher
+    21300006: Pistol
+    21300008: Ammo_GUI
+    21300010: Total Ammunition
+    21300012: Mag
+    21300014: Turner
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: LMG
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 291
+        width: 119
+        height: 42
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMG
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 291
+        width: 102
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Launcher
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 292
+        width: 113
+        height: 51
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Pistol
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 283
+        width: 70
+        height: 60
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ammo_GUI
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 25
+        width: 160
+        height: 182
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Total Ammunition
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 31
+        width: 77
+        height: 173
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Mag
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 12
+        width: 86
+        height: 201
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Turner
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 15
+        width: 202
+        height: 188
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
