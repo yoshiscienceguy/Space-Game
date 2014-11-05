@@ -145,6 +145,7 @@ ModelImporter:
     13700004: Mesh_MeshPart2
     13700006: Mesh_MeshPart3
     13700008: Mesh_MeshPart4
+    13700010: Mesh
   materials:
     importMaterials: 1
     materialName: 1
@@ -242,7 +243,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: Character1_Spine
+    - boneName: Character1_Spine1
       humanName: Spine
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -250,7 +251,7 @@ ModelImporter:
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 0
-    - boneName: Character1_Spine1
+    - boneName: Character1_Spine2
       humanName: Chest
       limit:
         min: {x: 0, y: 0, z: 0}
@@ -574,7 +575,7 @@ ModelImporter:
       transformModified: 1
     - name: Character1_LeftLegRoll
       position: {x: -.327613711, y: .114420727, z: -.0889492705}
-      rotation: {x: -.454702437, y: .0767129064, z: -.164860308, w: .871884227}
+      rotation: {x: -.454702377, y: .0767128989, z: -.164860293, w: .871884108}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: Character1_LeftFoot
@@ -694,7 +695,7 @@ ModelImporter:
       transformModified: 1
     - name: Character1_LeftHandRing2
       position: {x: -.0440295339, y: -1.43218766e-16, z: 2.1538326e-16}
-      rotation: {x: .240374401, y: .0321888551, z: .0125100771, w: .970065713}
+      rotation: {x: .240374416, y: .0321888588, z: .012510078, w: .970065773}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: Character1_LeftHandRing3
@@ -849,7 +850,7 @@ ModelImporter:
     armStretch: .0500000007
     legStretch: .0500000007
     feetSpacing: 0
-    rootMotionBoneName: 
+    rootMotionBoneName: Character1_Hips
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   animationType: 3
   additionalBone: 0

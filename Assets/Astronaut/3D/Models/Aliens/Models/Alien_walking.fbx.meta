@@ -146,7 +146,7 @@ ModelImporter:
       lastFrame: 32
       wrapMode: 0
       orientationOffsetY: 0
-      level: -.0599999987
+      level: 0
       cycleOffset: 0
       loop: 0
       loopTime: 1
@@ -154,8 +154,8 @@ ModelImporter:
       loopBlendOrientation: 0
       loopBlendPositionY: 0
       loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 0
       keepOriginalPositionXZ: 0
       heightFromFeet: 0
       mirror: 0
@@ -303,10 +303,6 @@ ModelImporter:
           Tail3/Bip01 Tail4/Bip01 Tail5/Bip01 Tail6/Bip01 TailNub
         weight: 1
       - path: LOW POLY
-        weight: 1
-      - path: LOW POLY01
-        weight: 1
-      - path: LOW POLY03
         weight: 1
       maskType: 0
       maskSource: {instanceID: 0}
