@@ -13,7 +13,24 @@ public class PlayerController : MonoBehaviour {
 	public float slideDeceleration = 10;
 	public float previous_loc = 2;
 	public float climbSpeed = 15;
-	
+
+	//Stats
+	private int oriMaxHP = 100;
+	private int curHP = 100;
+	private int curMAXHP = 100;
+
+	private int oriMaxOXY = 100;
+	private int curOXY = 100;
+	private int curMAXOXY = 100;
+
+	private int oriMaxMat = 100;
+	private int curMat = 100;
+	private int curMAXMat = 100;
+
+	private int oriMaxFuel = 100;
+	private int curFuel = 100;
+	private int curMAXFuel = 100;
+
 	// System
 
 	private float animationSpeed;
