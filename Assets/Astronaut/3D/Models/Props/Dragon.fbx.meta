@@ -1,0 +1,374 @@
+fileFormatVersion: 2
+guid: 7dd32d3e127333e4c9e64d864c0c7a92
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: abdomen
+    100002: blBodFins_1748
+    100004: blBodFins_1748.Shape
+    100006: blHSmSpikes_420
+    100008: blHSmSpikes_420.Shape
+    100010: blMilDragon_67382
+    100012: blMilDragon_67382.Shape
+    100014: blMilDragon_67382.Shape_MeshPart0
+    100016: blMilDragon_67382.Shape_MeshPart1
+    100018: blTClaws_1018
+    100020: blTClaws_1018.Shape
+    100022: chest
+    100024: //RootNode
+    100026: ftongue01
+    100028: ftongue02
+    100030: ftongue03
+    100032: ftongue04
+    100034: ftongue05
+    100036: ftongue06
+    100038: ftongue07
+    100040: ftongue08
+    100042: ftongue09
+    100044: ftongue10
+    100046: head
+    100048: head 1
+    100050: hip
+    100052: jaw
+    100054: lBigToe1
+    100056: lBigToe2
+    100058: lBigToe3
+    100060: lCollar
+    100062: lEar
+    100064: lEye
+    100066: lEyeLid
+    100068: lFoot
+    100070: lFoot 1
+    100072: lForeArm
+    100074: lForeArm 1
+    100076: lHand
+    100078: lHand 1
+    100080: lHorn
+    100082: lIndex1
+    100084: lIndex2
+    100086: lIndex3
+    100088: lIndexToe1
+    100090: lIndexToe2
+    100092: lIndexToe3
+    100094: lMid1
+    100096: lMid2
+    100098: lMid3
+    100100: lMidToe1
+    100102: lMidToe2
+    100104: lMidToe3
+    100106: lRing1
+    100108: lRing2
+    100110: lRing3
+    100112: lRingToe1
+    100114: lRingToe2
+    100116: lRingToe3
+    100118: lShin
+    100120: lShin 1
+    100122: lShldr
+    100124: lShldr 1
+    100126: lThigh
+    100128: lThigh 1
+    100130: lThumb1
+    100132: lThumb2
+    100134: lThumb3
+    100136: lWingFinger1
+    100138: lWingFinger2
+    100140: lWingFinger3
+    100142: lWingFinger4
+    100144: lWingForeArm
+    100146: lWingShldr
+    100148: neck1
+    100150: neck2
+    100152: neck3
+    100154: neck4
+    100156: neck4 1
+    100158: rBigToe1
+    100160: rBigToe2
+    100162: rBigToe3
+    100164: rCollar
+    100166: rEar
+    100168: rEye
+    100170: rEyeLid
+    100172: rFoot
+    100174: rFoot 1
+    100176: rForeArm
+    100178: rForeArm 1
+    100180: rHand
+    100182: rHand 1
+    100184: rHorn
+    100186: rIndex1
+    100188: rIndex2
+    100190: rIndex3
+    100192: rIndexToe1
+    100194: rIndexToe2
+    100196: rIndexToe3
+    100198: rMid1
+    100200: rMid2
+    100202: rMid3
+    100204: rMidToe1
+    100206: rMidToe2
+    100208: rMidToe3
+    100210: rRing1
+    100212: rRing2
+    100214: rRing3
+    100216: rRingToe1
+    100218: rRingToe2
+    100220: rRingToe3
+    100222: rShin
+    100224: rShin 1
+    100226: rShldr
+    100228: rShldr 1
+    100230: rThigh
+    100232: rThigh 1
+    100234: rThumb1
+    100236: rThumb2
+    100238: rThumb3
+    100240: rWingFinger1
+    100242: rWingFinger2
+    100244: rWingFinger3
+    100246: rWingFinger4
+    100248: rWingForeArm
+    100250: rWingShldr
+    100252: tail01
+    100254: tail02
+    100256: tail03
+    100258: tail04
+    100260: tail05
+    100262: tail06
+    100264: tail07
+    100266: tail08
+    100268: tail09
+    100270: tail10
+    100272: tail11
+    100274: tail12
+    100276: tail12 1
+    100278: tail13
+    100280: tail13 1
+    100282: tongue01
+    100284: tongue02
+    100286: tongue03
+    100288: tongue04
+    100290: tongue05
+    100292: tongue06
+    100294: tongue07
+    100296: tongue08
+    100298: tongue09
+    100300: tongue10
+    100302: tongue11
+    400000: abdomen
+    400002: blBodFins_1748
+    400004: blBodFins_1748.Shape
+    400006: blHSmSpikes_420
+    400008: blHSmSpikes_420.Shape
+    400010: blMilDragon_67382
+    400012: blMilDragon_67382.Shape
+    400014: blMilDragon_67382.Shape_MeshPart0
+    400016: blMilDragon_67382.Shape_MeshPart1
+    400018: blTClaws_1018
+    400020: blTClaws_1018.Shape
+    400022: chest
+    400024: //RootNode
+    400026: ftongue01
+    400028: ftongue02
+    400030: ftongue03
+    400032: ftongue04
+    400034: ftongue05
+    400036: ftongue06
+    400038: ftongue07
+    400040: ftongue08
+    400042: ftongue09
+    400044: ftongue10
+    400046: head
+    400048: head 1
+    400050: hip
+    400052: jaw
+    400054: lBigToe1
+    400056: lBigToe2
+    400058: lBigToe3
+    400060: lCollar
+    400062: lEar
+    400064: lEye
+    400066: lEyeLid
+    400068: lFoot
+    400070: lFoot 1
+    400072: lForeArm
+    400074: lForeArm 1
+    400076: lHand
+    400078: lHand 1
+    400080: lHorn
+    400082: lIndex1
+    400084: lIndex2
+    400086: lIndex3
+    400088: lIndexToe1
+    400090: lIndexToe2
+    400092: lIndexToe3
+    400094: lMid1
+    400096: lMid2
+    400098: lMid3
+    400100: lMidToe1
+    400102: lMidToe2
+    400104: lMidToe3
+    400106: lRing1
+    400108: lRing2
+    400110: lRing3
+    400112: lRingToe1
+    400114: lRingToe2
+    400116: lRingToe3
+    400118: lShin
+    400120: lShin 1
+    400122: lShldr
+    400124: lShldr 1
+    400126: lThigh
+    400128: lThigh 1
+    400130: lThumb1
+    400132: lThumb2
+    400134: lThumb3
+    400136: lWingFinger1
+    400138: lWingFinger2
+    400140: lWingFinger3
+    400142: lWingFinger4
+    400144: lWingForeArm
+    400146: lWingShldr
+    400148: neck1
+    400150: neck2
+    400152: neck3
+    400154: neck4
+    400156: neck4 1
+    400158: rBigToe1
+    400160: rBigToe2
+    400162: rBigToe3
+    400164: rCollar
+    400166: rEar
+    400168: rEye
+    400170: rEyeLid
+    400172: rFoot
+    400174: rFoot 1
+    400176: rForeArm
+    400178: rForeArm 1
+    400180: rHand
+    400182: rHand 1
+    400184: rHorn
+    400186: rIndex1
+    400188: rIndex2
+    400190: rIndex3
+    400192: rIndexToe1
+    400194: rIndexToe2
+    400196: rIndexToe3
+    400198: rMid1
+    400200: rMid2
+    400202: rMid3
+    400204: rMidToe1
+    400206: rMidToe2
+    400208: rMidToe3
+    400210: rRing1
+    400212: rRing2
+    400214: rRing3
+    400216: rRingToe1
+    400218: rRingToe2
+    400220: rRingToe3
+    400222: rShin
+    400224: rShin 1
+    400226: rShldr
+    400228: rShldr 1
+    400230: rThigh
+    400232: rThigh 1
+    400234: rThumb1
+    400236: rThumb2
+    400238: rThumb3
+    400240: rWingFinger1
+    400242: rWingFinger2
+    400244: rWingFinger3
+    400246: rWingFinger4
+    400248: rWingForeArm
+    400250: rWingShldr
+    400252: tail01
+    400254: tail02
+    400256: tail03
+    400258: tail04
+    400260: tail05
+    400262: tail06
+    400264: tail07
+    400266: tail08
+    400268: tail09
+    400270: tail10
+    400272: tail11
+    400274: tail12
+    400276: tail12 1
+    400278: tail13
+    400280: tail13 1
+    400282: tongue01
+    400284: tongue02
+    400286: tongue03
+    400288: tongue04
+    400290: tongue05
+    400292: tongue06
+    400294: tongue07
+    400296: tongue08
+    400298: tongue09
+    400300: tongue10
+    400302: tongue11
+    4300000: blHSmSpikes_420.Shape
+    4300002: blBodFins_1748.Shape
+    4300004: blTClaws_1018.Shape
+    4300006: blMilDragon_67382.Shape_MeshPart0
+    4300008: blMilDragon_67382.Shape_MeshPart1
+    9500000: //RootNode
+    13700000: blBodFins_1748.Shape
+    13700002: blHSmSpikes_420.Shape
+    13700004: blMilDragon_67382.Shape_MeshPart0
+    13700006: blMilDragon_67382.Shape_MeshPart1
+    13700008: blTClaws_1018.Shape
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

@@ -1,0 +1,108 @@
+fileFormatVersion: 2
+guid: f866b5ca147c4074baeabdf48c96656a
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: BackWall
+    100002: DistantLight 3
+    100004: doorleft
+    100006: doorright
+    100008: KeyLightSpot
+    100010: Level19_100328
+    100012: Level19_100328.Shape
+    100014: Level19_100328.Shape_MeshPart0
+    100016: Level19_100328.Shape_MeshPart1
+    100018: Main
+    100020: RimSpot
+    100022: //RootNode
+    100024: SpotLight 1
+    100026: SpotLight 1 1
+    100028: SpotLight 2
+    100030: SpotLight 2 1
+    100032: SpotLight 3
+    100034: SpotLight 4
+    100036: SpotLight 5
+    100038: SpotLight 6
+    100040: SpotLight 7
+    100042: Steps
+    400000: BackWall
+    400002: DistantLight 3
+    400004: doorleft
+    400006: doorright
+    400008: KeyLightSpot
+    400010: Level19_100328
+    400012: Level19_100328.Shape
+    400014: Level19_100328.Shape_MeshPart0
+    400016: Level19_100328.Shape_MeshPart1
+    400018: Main
+    400020: RimSpot
+    400022: //RootNode
+    400024: SpotLight 1
+    400026: SpotLight 1 1
+    400028: SpotLight 2
+    400030: SpotLight 2 1
+    400032: SpotLight 3
+    400034: SpotLight 4
+    400036: SpotLight 5
+    400038: SpotLight 6
+    400040: SpotLight 7
+    400042: Steps
+    4300000: Level19_100328.Shape_MeshPart0
+    4300002: Level19_100328.Shape_MeshPart1
+    9500000: //RootNode
+    13700000: Level19_100328.Shape_MeshPart0
+    13700002: Level19_100328.Shape_MeshPart1
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
