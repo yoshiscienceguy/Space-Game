@@ -37,7 +37,10 @@ public class PlayerController : MonoBehaviour {
 	private float currentSpeed;
 	private float targetSpeed;
 	private Vector2 amountToMove;
-	
+
+	//bullets
+	public  Rigidbody  Bullet;
+
 	// States
 	private bool jumping;
 	private bool sliding;
@@ -114,7 +117,17 @@ public class PlayerController : MonoBehaviour {
 	}
 	void Shoot(){
 		if (Input.GetMouseButtonDown (0)) {
+			Debug.Log("FIRING");
 			animator.SetBool("Fire",true);
+			float XvelocityVector =(Camera.main.ScreenToWorldPoint(Input.mousePosition).x) - (transform.position.x);
+			float YvelocityVector = (Camera.main.ScreenToWorldPoint(Input.mousePosition).y) - (transform.position.y);
+			Vector2 direction = new Vector2(XvelocityVector,YvelocityVector);
+			direction.Normalize();
+			Rigidbody  instanceBullet = Instantiate
+					(Bullet,
+				 transform.position, Quaternion.identity) as  Rigidbody ;
+			instanceBullet.rigidbody.AddForce(transform.forward *
+			                                  0.1f);
 		}
 		if (Input.GetMouseButtonUp (0)) {
 			animator.SetBool("Fire",false);
@@ -126,6 +139,10 @@ public class PlayerController : MonoBehaviour {
 		animator = GetComponent<Animator>();
 
 
+	}
+
+	void Hurt(int damage){
+		curHP -= damage;
 	}
 	
 	void Update () {
