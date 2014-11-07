@@ -41,3 +41,16 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
+
+# Stupid Unity files
+.DS_Store
+Library
+Library/*
+*.csproj
+*.sln
+*.userprefs
+Temp
+*.pidb
+Build
+
+Library/metadata/0a/0abaaee903a522c40880273601655ccf
