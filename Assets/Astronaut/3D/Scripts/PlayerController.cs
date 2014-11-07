@@ -44,6 +44,7 @@ public class PlayerController : MonoBehaviour {
 	// States
 	private bool jumping;
 	private bool sliding;
+	private bool fired;
 
 	private float location;
 
@@ -119,15 +120,36 @@ public class PlayerController : MonoBehaviour {
 		if (Input.GetMouseButtonDown (0)) {
 			Debug.Log("FIRING");
 			animator.SetBool("Fire",true);
-			float XvelocityVector =(Camera.main.ScreenToWorldPoint(Input.mousePosition).x) - (transform.position.x);
-			float YvelocityVector = (Camera.main.ScreenToWorldPoint(Input.mousePosition).y) - (transform.position.y);
-			Vector2 direction = new Vector2(XvelocityVector,YvelocityVector);
+
+			Vector3 direction = Camera.main.ScreenToWorldPoint ( new Vector3 ( Input.mousePosition.x, Input.mousePosition.y, 1000 ) );
+			direction = direction-transform.position;
 			direction.Normalize();
-			Rigidbody  instanceBullet = Instantiate
-					(Bullet,
-				 transform.position, Quaternion.identity) as  Rigidbody ;
-			instanceBullet.rigidbody.AddForce(transform.forward *
-			                                  0.1f);
+			Debug.Log("DIRECTION : "+direction);
+
+
+		//	RaycastHit hit ;
+		//	var ray = Camera.main.ScreenPointToRay (Input.mousePosition);
+//			Physics.Raycast (ray, hit, 100);
+		//	Debug.DrawLine (transform.position, hit.point);
+			var projectile = Instantiate(Bullet, transform.position, Quaternion.Euler(new Vector3(0,0,Mathf.Atan2 ( direction.y, direction.x ) * Mathf.Rad2Deg ))) as Rigidbody;
+			projectile.velocity = direction * 5f;
+			// turn the projectile to hit.point
+		//	projectile.transform.LookAt(hit.point);
+			// accelerate it
+			//projectile.rigidbody.AddForce(transform.forward* 1000000f,ForceMode.Impulse);
+			//Debug.Log(transform.forward);
+			DestroyObject(projectile.gameObject,3f);
+			//Destroy(projectile as GameObject,3f);
+			Debug.Log("FIRING WHY NO?");
+//			float XvelocityVector =(Camera.main.ScreenToWorldPoint(Input.mousePosition).x) - (transform.position.x);
+//			float YvelocityVector = (Camera.main.ScreenToWorldPoint(Input.mousePosition).y) - (transform.position.y);
+//			Vector2 direction = new Vector2(XvelocityVector,YvelocityVector);
+//			direction.Normalize();
+//			Rigidbody  instanceBullet = Instantiate
+//					(Bullet,
+//				 transform.position, Quaternion.identity) as  Rigidbody ;
+//			instanceBullet.rigidbody.AddForce(transform.forward *
+//			                                  2f);
 		}
 		if (Input.GetMouseButtonUp (0)) {
 			animator.SetBool("Fire",false);
