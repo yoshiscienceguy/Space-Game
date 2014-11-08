@@ -121,18 +121,22 @@ public class PlayerController : MonoBehaviour {
 			Debug.Log("FIRING");
 			animator.SetBool("Fire",true);
 
-			Vector3 direction = Camera.main.ScreenToWorldPoint ( new Vector3 ( Input.mousePosition.x, Input.mousePosition.y, 1000 ) );
-			direction = direction-transform.position;
-			direction.Normalize();
-			Debug.Log("DIRECTION : "+direction);
+			//Vector3 direction = Camera.main.ScreenToWorldPoint ( new Vector3 ( Input.mousePosition.x, Input.mousePosition.y, 1000 ) );
+			//direction = direction-transform.position;
+			//Debug.DrawLine (transform.position, direction);
+			//direction.Normalize();
+			//Debug.Log("DIRECTION : "+direction);
 
 
 		//	RaycastHit hit ;
 		//	var ray = Camera.main.ScreenPointToRay (Input.mousePosition);
 //			Physics.Raycast (ray, hit, 100);
-		//	Debug.DrawLine (transform.position, hit.point);
-			var projectile = Instantiate(Bullet, transform.position, Quaternion.Euler(new Vector3(0,0,Mathf.Atan2 ( direction.y, direction.x ) * Mathf.Rad2Deg ))) as Rigidbody;
-			projectile.velocity = direction * 5f;
+
+			var projectile = Instantiate(Bullet, transform.position, Quaternion.identity) as Rigidbody;
+
+
+			//var projectile = Instantiate(Bullet, transform.position, Quaternion.Euler(new Vector4(0,0,0,Mathf.Atan2 ( direction.y, direction.x ) * Mathf.Rad2Deg ))) as Rigidbody;
+			//projectile.velocity = direction * 5f;
 			// turn the projectile to hit.point
 		//	projectile.transform.LookAt(hit.point);
 			// accelerate it
