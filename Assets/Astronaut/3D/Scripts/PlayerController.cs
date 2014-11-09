@@ -167,6 +167,15 @@ public class PlayerController : MonoBehaviour {
 
 	}
 
+	public void GetLoot(int type, int amount){
+		Debug.Log ("GETLOOT : "+type +" = " + amount);
+		if (type == 0) {
+						curMat += amount;		
+				} else if (type == 1) {
+			curFuel+=amount;		
+		}
+	}
+
 	void Hurt(int damage){
 		curHP -= damage;
 	}

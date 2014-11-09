@@ -49,6 +49,10 @@ public class Bullet : MonoBehaviour {
 
 	void OnCollisionEnter(Collision col) {
 		Debug.Log ("Bullet hit something so");
+		//Destroy(col.gameObject);
+		col.gameObject.GetComponent<Blob_AI>().Hurt(5);
+
+		//a.
 		// Remove the Bullet from the world
 		Destroy(this.gameObject);
 	}
