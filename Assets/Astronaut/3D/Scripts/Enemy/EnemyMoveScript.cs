@@ -7,6 +7,7 @@ public class EnemyMoveScript : MonoBehaviour {
 	public float moveSpeed = 0.1f;
 	private CharacterController character;
 	private bool sighted = false;
+	private bool merge = false;
 
 	private GameObject player;
 
@@ -25,13 +26,17 @@ public class EnemyMoveScript : MonoBehaviour {
 		}
 	}
 
+	public float Sight(){
+		return sight;
+	}
+
 	// Update is called once per frame
 	void Update () {
 		PlayerinSight ();
 		if (sighted) {
 						Vector3 moveDirection = player.transform.position - transform.position;
 			moveDirection.Normalize();
-			Debug.Log ("move : "+moveDirection);
+			//Debug.Log ("move : "+moveDirection);
 						if (moveDirection.x > 0) {
 								transform.eulerAngles = (moveDirection.x > 0) ? Vector3.up * 90 : Vector3.zero;
 						}
@@ -46,7 +51,7 @@ public class EnemyMoveScript : MonoBehaviour {
 //		}
 						Vector3 move = new Vector3 (moveSpeed * Time.deltaTime * moveDirection.x, 0, 0);
 						character.Move (move);
-			Debug.Log ("moving : "+move);
+			//Debug.Log ("moving : "+move);
 
 				}
 		//transform.Translate(moveSpeed * Time.deltaTime, 0,0);

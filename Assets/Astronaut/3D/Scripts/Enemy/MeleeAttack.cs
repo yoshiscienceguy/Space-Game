@@ -13,7 +13,6 @@ public class MeleeAttack : MonoBehaviour {
 		player = GameObject.FindWithTag("Player");
 	}
 
-
 	void FixedUpdate ()
 	{
 		float distance = Vector3.Distance(player.transform.position, transform.position);
