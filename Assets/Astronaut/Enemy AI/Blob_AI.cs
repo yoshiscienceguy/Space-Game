@@ -7,9 +7,8 @@ public class Blob_AI : MonoBehaviour {
 	
 	private int mergeCount = 0;
 	private static int mergeLimit = 5;
-	private float attackSpeed = 1f;
-	private int Damage = 1;
-	private float nextAttack = 0.0F;
+
+
 	private int HP = 10;
 	private float moveSpeed = 1f;
 	
@@ -26,33 +25,15 @@ public class Blob_AI : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void Update () {
-//		Vector3 temp = transform.position; // copy to an auxiliary variable...
-//		temp.z = temp.z + moveSpeed; // modify the component you want in the variable...
-//		transform.position = temp; // and save the modified value 
-//		transform.Translate (Vector2.right * moveSpeed * Time.deltaTime);
-//		transform.Translate(0, 0, moveSpeed * Time.deltaTime);
-		//Debug.Log ("asadas");
-		//		currheight = transform.position.y;
-		//
-		//		if (currheight == previousheight) {
-		//			Debug.Log("MOVE");
-		//			rigidbody.velocity = new Vector3 (moveSpeed, 0, 0);
-		//				} else {
-		//
-		//		}
-		
-		
-		
-	}
+
 	
 	void LateUpdate() {
 		currheight = previousheight;
 	}
 	
-	int RandomLoot(){
-		return Random.Range (1, maxLoot);
-	}
+//	int RandomLoot(){
+//		return Random.Range (1, maxLoot);
+//	}
 	
 	
 	void Merge(){
@@ -68,15 +49,7 @@ public class Blob_AI : MonoBehaviour {
 		}
 	}
 	
-	public void Hurt(int Damage){
-		Debug.Log ("DEALING DAMAGE!");
-		HP -= Damage;
-		if (HP <= 0) {
-			//perform animation
-			player.GetComponent<PlayerController>().GetLoot(0,RandomLoot());
-			Destroy(gameObject);		
-		}
-	}
+
 	
 	//	void OnCollisionEnter(Collision collision) {
 	//		if (collision.tag == "INVISWALL") {
@@ -124,19 +97,19 @@ public class Blob_AI : MonoBehaviour {
 			//Destroy (gameObject);
 		}
 		// Otherwise if it hits a bomb crate...
-		else if(col.tag == "Player")
-		{
-			if(Time.time>nextAttack){
-				nextAttack = Time.time+attackSpeed;
-			}
-			// ... find the Bomb script and call the Explode function.
-			//col.gameObject.GetComponent<Bomb>().Explode();
-			
-			// Destroy the bomb crate.
-			//Destroy (col.transform.root.gameObject);
-			
-			// Destroy the rocket.
-			//Destroy (gameObject);
-		}
+//		else if(col.tag == "Player")
+//		{
+//			if(Time.time>nextAttack){
+//				nextAttack = Time.time+attackSpeed;
+//			}
+//			// ... find the Bomb script and call the Explode function.
+//			//col.gameObject.GetComponent<Bomb>().Explode();
+//			
+//			// Destroy the bomb crate.
+//			//Destroy (col.transform.root.gameObject);
+//			
+//			// Destroy the rocket.
+//			//Destroy (gameObject);
+//		}
 	}
 }

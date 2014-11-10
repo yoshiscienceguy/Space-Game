@@ -118,7 +118,7 @@ public class PlayerController : MonoBehaviour {
 	}
 	void Shoot(){
 		if (Input.GetMouseButtonDown (0)) {
-			Debug.Log("FIRING");
+			Debug.Log("FIRING"+gameObject.GetComponent<BoxCollider>().size.y);
 			animator.SetBool("Fire",true);
 
 			//Vector3 direction = Camera.main.ScreenToWorldPoint ( new Vector3 ( Input.mousePosition.x, Input.mousePosition.y, 1000 ) );
@@ -131,10 +131,12 @@ public class PlayerController : MonoBehaviour {
 		//	RaycastHit hit ;
 		//	var ray = Camera.main.ScreenPointToRay (Input.mousePosition);
 //			Physics.Raycast (ray, hit, 100);
-
+			float a = gameObject.GetComponent<BoxCollider>().size.y/4;
+			Debug.Log(transform.position+"---"+a+":"+(transform.position.y+a));
+			//Vector3 firingPos = new Vector3( transform.position.x, transform.position.y+a , 0);
 			var projectile = Instantiate(Bullet, transform.position, Quaternion.identity) as Rigidbody;
 
-
+			curMat--;
 			//var projectile = Instantiate(Bullet, transform.position, Quaternion.Euler(new Vector4(0,0,0,Mathf.Atan2 ( direction.y, direction.x ) * Mathf.Rad2Deg ))) as Rigidbody;
 			//projectile.velocity = direction * 5f;
 			// turn the projectile to hit.point
@@ -167,17 +169,27 @@ public class PlayerController : MonoBehaviour {
 
 	}
 
-	public void GetLoot(int type, int amount){
-		Debug.Log ("GETLOOT : "+type +" = " + amount);
-		if (type == 0) {
-						curMat += amount;		
-				} else if (type == 1) {
-			curFuel+=amount;		
+	public void GetLoot(string loot){
+		Debug.Log ("CURLOOT : "+curMat + ";;;"+curFuel);
+		Debug.Log ("GETLOOT : "+loot);
+		string[] s = loot.Split (';');
+		foreach (string l in s) {
+			string [] tmp = l.Split(':');
+			if (tmp[0] == "0") {
+				Debug.Log("ADD TO MAT");
+				curMat +=int.Parse(tmp[1]);		
+			}else if (tmp[0] == "1") {
+				Debug.Log("ADD TO FUEL");
+				curFuel +=int.Parse(tmp[1]);				
+			}
 		}
+		Debug.Log ("CURLOOT : "+curMat + ";;;"+curFuel);
 	}
 
-	void Hurt(int damage){
+	public void Hurt(int damage){
+		Debug.Log ("IMMA GETTING DAMAGES "+damage);
 		curHP -= damage;
+		Debug.Log ("MY HP IS AT "+curHP);
 	}
 	
 	void Update () {

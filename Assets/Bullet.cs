@@ -3,7 +3,7 @@ using System.Collections;
 
 public class Bullet : MonoBehaviour {
 
-	float Speed = 10f;
+	float Speed = 100f;
 	
 	// The number of seconds before the bullet is automatically destroyed
 	float SecondsUntilDestroy = 10f;
@@ -14,7 +14,8 @@ public class Bullet : MonoBehaviour {
 	void Start () {
 		Vector3 p = Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x,
 		                                                       Input.mousePosition.y, Camera.main.nearClipPlane));
-		                                          Debug.Log(p);
+		                                          Debug.Log("Camera to Mouse"+p);
+		Debug.Log ("Bullet pos : "+transform.position);
 		//Debug.Log(transform.position);
 		direction = new Vector3(p.x,p.y,0);
 		//Debug.Log(direction);
@@ -23,7 +24,7 @@ public class Bullet : MonoBehaviour {
 		direction.Normalize();
 		direction.z = 0;
 		Debug.Log(direction);
-		transform.position = new Vector3(transform.position.x,transform.position.y,0);
+		transform.position = new Vector3(transform.position.x,transform.position.y+1.4f,0);
 		//startTime = Time.time; 
 
 	}
@@ -50,10 +51,11 @@ public class Bullet : MonoBehaviour {
 	void OnCollisionEnter(Collision col) {
 		Debug.Log ("Bullet hit something so");
 		//Destroy(col.gameObject);
-		col.gameObject.GetComponent<Blob_AI>().Hurt(5);
-
-		//a.
-		// Remove the Bullet from the world
+		try{
+		col.gameObject.GetComponent<EnemyHealth>().Hurt(5);
 		Destroy(this.gameObject);
+		}catch{
+				
+		}
 	}
 }
