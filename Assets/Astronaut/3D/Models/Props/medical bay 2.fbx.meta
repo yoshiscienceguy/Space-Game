@@ -1,0 +1,134 @@
+fileFormatVersion: 2
+guid: d28f7f830a283924b9b2e31210c6a47f
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Medical_Bay
+    100004: Medical_Bay_MeshPart0
+    100006: Medical_Bay_MeshPart1
+    100008: Medical_Bay_MeshPart2
+    100010: Medical_Bay_MeshPart3
+    100012: Medical_Bay_MeshPart4
+    100014: Medical_Bay_MeshPart5
+    100016: Medical_Hallway
+    100018: Medical_Hallway_MeshPart0
+    100020: Medical_Hallway_MeshPart1
+    100022: NSSCRCompRoom_231374.Shape
+    100024: NSSMLSinkUnit_10846.Shape
+    100026: NSSMLSinkUnit_10846.Shape1
+    100028: NSSSCBlastDoors_18044.Shape
+    100030: NSSSCBlastDoors_18044.Shape1
+    400000: //RootNode
+    400002: Medical_Bay
+    400004: Medical_Bay_MeshPart0
+    400006: Medical_Bay_MeshPart1
+    400008: Medical_Bay_MeshPart2
+    400010: Medical_Bay_MeshPart3
+    400012: Medical_Bay_MeshPart4
+    400014: Medical_Bay_MeshPart5
+    400016: Medical_Hallway
+    400018: Medical_Hallway_MeshPart0
+    400020: Medical_Hallway_MeshPart1
+    400022: NSSCRCompRoom_231374.Shape
+    400024: NSSMLSinkUnit_10846.Shape
+    400026: NSSMLSinkUnit_10846.Shape1
+    400028: NSSSCBlastDoors_18044.Shape
+    400030: NSSSCBlastDoors_18044.Shape1
+    2300000: Medical_Bay_MeshPart0
+    2300002: Medical_Bay_MeshPart1
+    2300004: Medical_Bay_MeshPart2
+    2300006: Medical_Bay_MeshPart3
+    2300008: Medical_Bay_MeshPart4
+    2300010: Medical_Bay_MeshPart5
+    2300012: Medical_Hallway_MeshPart0
+    2300014: Medical_Hallway_MeshPart1
+    2300016: NSSCRCompRoom_231374.Shape
+    2300018: NSSMLSinkUnit_10846.Shape
+    2300020: NSSMLSinkUnit_10846.Shape1
+    2300022: Medical_Bay
+    2300024: NSSSCBlastDoors_18044.Shape
+    2300026: NSSSCBlastDoors_18044.Shape1
+    3300000: Medical_Bay_MeshPart0
+    3300002: Medical_Bay_MeshPart1
+    3300004: Medical_Bay_MeshPart2
+    3300006: Medical_Bay_MeshPart3
+    3300008: Medical_Bay_MeshPart4
+    3300010: Medical_Bay_MeshPart5
+    3300012: Medical_Hallway_MeshPart0
+    3300014: Medical_Hallway_MeshPart1
+    3300016: NSSCRCompRoom_231374.Shape
+    3300018: NSSMLSinkUnit_10846.Shape
+    3300020: NSSMLSinkUnit_10846.Shape1
+    3300022: Medical_Bay
+    3300024: NSSSCBlastDoors_18044.Shape
+    3300026: NSSSCBlastDoors_18044.Shape1
+    4300000: NSSCRCompRoom_231374.Shape
+    4300002: NSSMLSinkUnit_10846.Shape
+    4300004: NSSMLSinkUnit_10846.Shape1
+    4300006: Medical_Bay_MeshPart0
+    4300008: Medical_Bay_MeshPart1
+    4300010: Medical_Bay_MeshPart2
+    4300012: Medical_Bay_MeshPart3
+    4300014: Medical_Bay_MeshPart4
+    4300016: Medical_Bay_MeshPart5
+    4300018: Medical_Hallway_MeshPart0
+    4300020: Medical_Hallway_MeshPart1
+    4300022: NSSSCBlastDoors_18044.Shape
+    4300024: NSSSCBlastDoors_18044.Shape1
+    4300026: Medical_Bay
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

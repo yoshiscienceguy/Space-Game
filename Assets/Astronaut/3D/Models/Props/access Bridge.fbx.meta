@@ -1,0 +1,105 @@
+fileFormatVersion: 2
+guid: 81affff2107ca7f4ba5d53f5bf56f2e7
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: LIGHT1
+    100004: LIGHT2
+    100006: LIGHT3
+    100008: LIGHT4
+    100010: lss_bridge_27936
+    100012: lss_bridge_27936.Shape
+    100014: lss_bridge_end_caps_2576
+    100016: lss_bridge_end_caps_2576.Shape
+    100018: lss_bridge_rim_door1_828
+    100020: lss_bridge_rim_door1_828.Shape
+    100022: lss_bridge_rim_door2_828
+    100024: lss_bridge_rim_door2_828.Shape
+    100026: lss_bridge_rim_locks_3110
+    100028: lss_bridge_rim_locks_3110.Shape
+    400000: //RootNode
+    400002: LIGHT1
+    400004: LIGHT2
+    400006: LIGHT3
+    400008: LIGHT4
+    400010: lss_bridge_27936
+    400012: lss_bridge_27936.Shape
+    400014: lss_bridge_end_caps_2576
+    400016: lss_bridge_end_caps_2576.Shape
+    400018: lss_bridge_rim_door1_828
+    400020: lss_bridge_rim_door1_828.Shape
+    400022: lss_bridge_rim_door2_828
+    400024: lss_bridge_rim_door2_828.Shape
+    400026: lss_bridge_rim_locks_3110
+    400028: lss_bridge_rim_locks_3110.Shape
+    2300000: lss_bridge_27936.Shape
+    2300002: lss_bridge_end_caps_2576.Shape
+    2300004: lss_bridge_rim_door1_828.Shape
+    2300006: lss_bridge_rim_door2_828.Shape
+    2300008: lss_bridge_rim_locks_3110.Shape
+    3300000: lss_bridge_27936.Shape
+    3300002: lss_bridge_end_caps_2576.Shape
+    3300004: lss_bridge_rim_door1_828.Shape
+    3300006: lss_bridge_rim_door2_828.Shape
+    3300008: lss_bridge_rim_locks_3110.Shape
+    4300000: lss_bridge_rim_door1_828.Shape
+    4300002: lss_bridge_rim_door2_828.Shape
+    4300004: lss_bridge_rim_locks_3110.Shape
+    4300006: lss_bridge_end_caps_2576.Shape
+    4300008: lss_bridge_27936.Shape
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

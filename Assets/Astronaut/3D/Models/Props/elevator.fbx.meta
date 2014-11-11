@@ -1,0 +1,284 @@
+fileFormatVersion: 2
+guid: e4752fabf8945544ca7343d22dcb3e24
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: axis
+    100002: base
+    100004: base 1
+    100006: //RootNode
+    100008: handle
+    100010: Hinges
+    100012: Hinges 1
+    100014: Hinges 10
+    100016: Hinges 11
+    100018: Hinges 12
+    100020: Hinges 13
+    100022: Hinges 2
+    100024: Hinges 3
+    100026: Hinges 4
+    100028: Hinges 5
+    100030: Hinges 6
+    100032: Hinges 7
+    100034: Hinges 8
+    100036: Hinges 9
+    100038: Ldoor
+    100040: panel
+    100042: panel 1
+    100044: panel 10
+    100046: panel 11
+    100048: panel 12
+    100050: panel 13
+    100052: panel 2
+    100054: panel 3
+    100056: panel 4
+    100058: panel 5
+    100060: panel 6
+    100062: panel 7
+    100064: panel 8
+    100066: panel 9
+    100068: parabola
+    100070: Rdoor
+    100072: ST3antennas_84
+    100074: ST3antennas_84.Shape
+    100076: ST3building_39007
+    100078: ST3building_39007.Shape
+    100080: ST3depot_door_2343
+    100082: ST3depot_door_2343.Shape
+    100084: ST3double_doors_6103
+    100086: ST3double_doors_6103.Shape
+    100088: ST3machinery_2406
+    100090: ST3machinery_2406.Shape
+    100092: ST3parabola_516
+    100094: ST3parabola_516.Shape
+    100096: ST3Shield_panel_1196
+    100098: ST3Shield_panel_1196 1
+    100100: ST3Shield_panel_1196 10
+    100102: ST3Shield_panel_1196 11
+    100104: ST3Shield_panel_1196 12
+    100106: ST3Shield_panel_1196 13
+    100108: ST3Shield_panel_1196 2
+    100110: ST3Shield_panel_1196 3
+    100112: ST3Shield_panel_1196 4
+    100114: ST3Shield_panel_1196 5
+    100116: ST3Shield_panel_1196 6
+    100118: ST3Shield_panel_1196 7
+    100120: ST3Shield_panel_1196 8
+    100122: ST3Shield_panel_1196 9
+    100124: ST3Shield_panel_1196.Shape
+    100126: ST3Shield_panel_1196.Shape 1
+    100128: ST3Shield_panel_1196.Shape 10
+    100130: ST3Shield_panel_1196.Shape 11
+    100132: ST3Shield_panel_1196.Shape 12
+    100134: ST3Shield_panel_1196.Shape 13
+    100136: ST3Shield_panel_1196.Shape 2
+    100138: ST3Shield_panel_1196.Shape 3
+    100140: ST3Shield_panel_1196.Shape 4
+    100142: ST3Shield_panel_1196.Shape 5
+    100144: ST3Shield_panel_1196.Shape 6
+    100146: ST3Shield_panel_1196.Shape 7
+    100148: ST3Shield_panel_1196.Shape 8
+    100150: ST3Shield_panel_1196.Shape 9
+    100152: Body1
+    100154: Body1_MeshPart0
+    100156: Body1_MeshPart1
+    100158: Elevator
+    100160: Top_Elevator
+    100162: Tunnel
+    400000: axis
+    400002: base
+    400004: base 1
+    400006: //RootNode
+    400008: handle
+    400010: Hinges
+    400012: Hinges 1
+    400014: Hinges 10
+    400016: Hinges 11
+    400018: Hinges 12
+    400020: Hinges 13
+    400022: Hinges 2
+    400024: Hinges 3
+    400026: Hinges 4
+    400028: Hinges 5
+    400030: Hinges 6
+    400032: Hinges 7
+    400034: Hinges 8
+    400036: Hinges 9
+    400038: Ldoor
+    400040: panel
+    400042: panel 1
+    400044: panel 10
+    400046: panel 11
+    400048: panel 12
+    400050: panel 13
+    400052: panel 2
+    400054: panel 3
+    400056: panel 4
+    400058: panel 5
+    400060: panel 6
+    400062: panel 7
+    400064: panel 8
+    400066: panel 9
+    400068: parabola
+    400070: Rdoor
+    400072: ST3antennas_84
+    400074: ST3antennas_84.Shape
+    400076: ST3building_39007
+    400078: ST3building_39007.Shape
+    400080: ST3depot_door_2343
+    400082: ST3depot_door_2343.Shape
+    400084: ST3double_doors_6103
+    400086: ST3double_doors_6103.Shape
+    400088: ST3machinery_2406
+    400090: ST3machinery_2406.Shape
+    400092: ST3parabola_516
+    400094: ST3parabola_516.Shape
+    400096: ST3Shield_panel_1196
+    400098: ST3Shield_panel_1196 1
+    400100: ST3Shield_panel_1196 10
+    400102: ST3Shield_panel_1196 11
+    400104: ST3Shield_panel_1196 12
+    400106: ST3Shield_panel_1196 13
+    400108: ST3Shield_panel_1196 2
+    400110: ST3Shield_panel_1196 3
+    400112: ST3Shield_panel_1196 4
+    400114: ST3Shield_panel_1196 5
+    400116: ST3Shield_panel_1196 6
+    400118: ST3Shield_panel_1196 7
+    400120: ST3Shield_panel_1196 8
+    400122: ST3Shield_panel_1196 9
+    400124: ST3Shield_panel_1196.Shape
+    400126: ST3Shield_panel_1196.Shape 1
+    400128: ST3Shield_panel_1196.Shape 10
+    400130: ST3Shield_panel_1196.Shape 11
+    400132: ST3Shield_panel_1196.Shape 12
+    400134: ST3Shield_panel_1196.Shape 13
+    400136: ST3Shield_panel_1196.Shape 2
+    400138: ST3Shield_panel_1196.Shape 3
+    400140: ST3Shield_panel_1196.Shape 4
+    400142: ST3Shield_panel_1196.Shape 5
+    400144: ST3Shield_panel_1196.Shape 6
+    400146: ST3Shield_panel_1196.Shape 7
+    400148: ST3Shield_panel_1196.Shape 8
+    400150: ST3Shield_panel_1196.Shape 9
+    400152: Body1
+    400154: Body1_MeshPart0
+    400156: Body1_MeshPart1
+    400158: Elevator
+    400160: Top_Elevator
+    400162: Tunnel
+    2300000: ST3antennas_84.Shape
+    2300002: ST3building_39007.Shape
+    2300004: ST3depot_door_2343.Shape
+    2300006: ST3machinery_2406.Shape
+    2300008: Body1_MeshPart0
+    2300010: Body1_MeshPart1
+    2300012: Elevator
+    2300014: Top_Elevator
+    2300016: Tunnel
+    3300000: ST3antennas_84.Shape
+    3300002: ST3building_39007.Shape
+    3300004: ST3depot_door_2343.Shape
+    3300006: ST3machinery_2406.Shape
+    3300008: Body1_MeshPart0
+    3300010: Body1_MeshPart1
+    3300012: Elevator
+    3300014: Top_Elevator
+    3300016: Tunnel
+    4300000: ST3machinery_2406.Shape
+    4300002: ST3antennas_84.Shape
+    4300004: ST3depot_door_2343.Shape
+    4300006: ST3building_39007.Shape
+    4300008: ST3double_doors_6103.Shape
+    4300010: ST3parabola_516.Shape
+    4300012: ST3Shield_panel_1196.Shape
+    4300014: ST3Shield_panel_1196.Shape
+    4300016: ST3Shield_panel_1196.Shape
+    4300018: ST3Shield_panel_1196.Shape
+    4300020: ST3Shield_panel_1196.Shape
+    4300022: ST3Shield_panel_1196.Shape
+    4300024: ST3Shield_panel_1196.Shape
+    4300026: ST3Shield_panel_1196.Shape
+    4300028: ST3Shield_panel_1196.Shape
+    4300030: ST3Shield_panel_1196.Shape
+    4300032: ST3Shield_panel_1196.Shape
+    4300034: ST3Shield_panel_1196.Shape
+    4300036: ST3Shield_panel_1196.Shape
+    4300038: ST3Shield_panel_1196.Shape
+    4300040: Elevator
+    4300042: Tunnel
+    4300044: Body1_MeshPart0
+    4300046: Body1_MeshPart1
+    4300048: Top_Elevator
+    7400000: Animation
+    9500000: //RootNode
+    13700000: ST3double_doors_6103.Shape
+    13700002: ST3parabola_516.Shape
+    13700004: ST3Shield_panel_1196.Shape
+    13700006: ST3Shield_panel_1196.Shape 1
+    13700008: ST3Shield_panel_1196.Shape 10
+    13700010: ST3Shield_panel_1196.Shape 11
+    13700012: ST3Shield_panel_1196.Shape 12
+    13700014: ST3Shield_panel_1196.Shape 13
+    13700016: ST3Shield_panel_1196.Shape 2
+    13700018: ST3Shield_panel_1196.Shape 3
+    13700020: ST3Shield_panel_1196.Shape 4
+    13700022: ST3Shield_panel_1196.Shape 5
+    13700024: ST3Shield_panel_1196.Shape 6
+    13700026: ST3Shield_panel_1196.Shape 7
+    13700028: ST3Shield_panel_1196.Shape 8
+    13700030: ST3Shield_panel_1196.Shape 9
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

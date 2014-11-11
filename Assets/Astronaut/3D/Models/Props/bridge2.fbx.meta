@@ -1,0 +1,129 @@
+fileFormatVersion: 2
+guid: d7f3ac4949d13be449700d003c6df5be
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: AreaLightSupport
+    100002: //RootNode
+    100004: bridge_rim_door2_828
+    100006: bridge_rim_door2_828.Shape
+    100008: bridge_rim_locks_3110
+    100010: bridge_rim_locks_3110.Shape
+    100012: corridor_7539
+    100014: corridor_7539.Shape
+    100016: DistantLight 1
+    100018: environmentSphere_1923
+    100020: environmentSphere_1923.Shape
+    100022: LIGHT1
+    100024: LIGHT2
+    100026: LIGHT3
+    100028: LIGHT4
+    100030: lss_bridge_rim_door1
+    100032: omLightPlane
+    100034: omLightPlane.Shape
+    100036: rim_door1_150
+    100038: rim_door1_150.Shape
+    100040: rim_door2_150
+    100042: rim_door2_150.Shape
+    100044: SpotLight 2
+    100046: UberEnvironment2 2
+    400000: AreaLightSupport
+    400002: //RootNode
+    400004: bridge_rim_door2_828
+    400006: bridge_rim_door2_828.Shape
+    400008: bridge_rim_locks_3110
+    400010: bridge_rim_locks_3110.Shape
+    400012: corridor_7539
+    400014: corridor_7539.Shape
+    400016: DistantLight 1
+    400018: environmentSphere_1923
+    400020: environmentSphere_1923.Shape
+    400022: LIGHT1
+    400024: LIGHT2
+    400026: LIGHT3
+    400028: LIGHT4
+    400030: lss_bridge_rim_door1
+    400032: omLightPlane
+    400034: omLightPlane.Shape
+    400036: rim_door1_150
+    400038: rim_door1_150.Shape
+    400040: rim_door2_150
+    400042: rim_door2_150.Shape
+    400044: SpotLight 2
+    400046: UberEnvironment2 2
+    2300000: bridge_rim_door2_828.Shape
+    2300002: bridge_rim_locks_3110.Shape
+    2300004: corridor_7539.Shape
+    2300006: environmentSphere_1923.Shape
+    2300008: omLightPlane.Shape
+    2300010: rim_door1_150.Shape
+    2300012: rim_door2_150.Shape
+    3300000: bridge_rim_door2_828.Shape
+    3300002: bridge_rim_locks_3110.Shape
+    3300004: corridor_7539.Shape
+    3300006: environmentSphere_1923.Shape
+    3300008: omLightPlane.Shape
+    3300010: rim_door1_150.Shape
+    3300012: rim_door2_150.Shape
+    4300000: rim_door1_150.Shape
+    4300002: rim_door2_150.Shape
+    4300004: bridge_rim_door2_828.Shape
+    4300006: bridge_rim_locks_3110.Shape
+    4300008: corridor_7539.Shape
+    4300010: omLightPlane.Shape
+    4300012: environmentSphere_1923.Shape
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

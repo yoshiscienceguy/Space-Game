@@ -1,0 +1,351 @@
+fileFormatVersion: 2
+guid: e670528269a65e24e9192b007dabf57f
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: AreaLightSupport
+    100002: AreaLightSupport 1
+    100004: DistantLight 1
+    100006: DistantLight 1 1
+    100008: environmentSphere_1923
+    100010: environmentSphere_1923 1
+    100012: environmentSphere_1923.Shape
+    100014: environmentSphere_1923.Shape 1
+    100016: omLightPlane
+    100018: omLightPlane 1
+    100020: omLightPlane.Shape
+    100022: omLightPlane.Shape 1
+    100024: //RootNode
+    100026: SpotLight 2
+    100028: SpotLight 2 1
+    100030: stlBanana_345
+    100032: stlBanana_345.Shape
+    100034: stlBanzai_3584
+    100036: stlBanzai_3584.Shape
+    100038: stlBedAlcove_6577
+    100040: stlBedAlcove_6577.Shape
+    100042: stlBedSheet_6891
+    100044: stlBedSheet_6891.Shape
+    100046: stlBinders_112
+    100048: stlBinders_112.Shape
+    100050: stlBooks_596
+    100052: stlBooks_596.Shape
+    100054: stlButress1_1132
+    100056: stlButress1_1132.Shape
+    100058: stlButress2_1132
+    100060: stlButress2_1132.Shape
+    100062: stlCables_1596
+    100064: stlCables_1596.Shape
+    100066: stlCeiling
+    100068: stlCeiling.Shape
+    100070: stlCeilingLight_402
+    100072: stlCeilingLight_402.Shape
+    100074: stlDoor1_430
+    100076: stlDoor1_430.Shape
+    100078: stlEntrance
+    100080: stlEntrance.Shape
+    100082: stlFloor2_864
+    100084: stlFloor2_864.Shape
+    100086: stlFloor3_864
+    100088: stlFloor3_864.Shape
+    100090: stlFloor4_864
+    100092: stlFloor4_864.Shape
+    100094: stlFloor_8438
+    100096: stlFloor_8438.Shape
+    100098: stlLatte_426
+    100100: stlLatte_426.Shape
+    100102: stlOutside_15
+    100104: stlOutside_15.Shape
+    100106: stlPCRack_4120
+    100108: stlPCRack_4120.Shape
+    100110: stlPhotos01_138
+    100112: stlPhotos01_138.Shape
+    100114: stlPhotos2_28
+    100116: stlPhotos2_28.Shape
+    100118: stlPillow01_652
+    100120: stlPillow01_652.Shape
+    100122: stlPillow02_652
+    100124: stlPillow02_652.Shape
+    100126: stlPipes_5899
+    100128: stlPipes_5899.Shape
+    100130: stlRifle_11278
+    100132: stlRifle_11278.Shape
+    100134: stlScreen_880
+    100136: stlScreen_880.Shape
+    100138: stlShelf_192
+    100140: stlShelf_192.Shape
+    100142: stlShelfBox_30
+    100144: stlShelfBox_30.Shape
+    100146: stlWall2_1294
+    100148: stlWall2_1294.Shape
+    100150: stlWall2Window_9
+    100152: stlWall2Window_9.Shape
+    100154: stlWall3_4056
+    100156: stlWall3_4056.Shape
+    100158: stlWall4_4056
+    100160: stlWall4_4056.Shape
+    100162: stlWallCapping_9446
+    100164: stlWallCapping_9446.Shape
+    100166: stlWallLeft_3061
+    100168: stlWallLeft_3061.Shape
+    100170: UberEnvironment2 2
+    100172: UberEnvironment2 2 1
+    400000: AreaLightSupport
+    400002: AreaLightSupport 1
+    400004: DistantLight 1
+    400006: DistantLight 1 1
+    400008: environmentSphere_1923
+    400010: environmentSphere_1923 1
+    400012: environmentSphere_1923.Shape
+    400014: environmentSphere_1923.Shape 1
+    400016: omLightPlane
+    400018: omLightPlane 1
+    400020: omLightPlane.Shape
+    400022: omLightPlane.Shape 1
+    400024: //RootNode
+    400026: SpotLight 2
+    400028: SpotLight 2 1
+    400030: stlBanana_345
+    400032: stlBanana_345.Shape
+    400034: stlBanzai_3584
+    400036: stlBanzai_3584.Shape
+    400038: stlBedAlcove_6577
+    400040: stlBedAlcove_6577.Shape
+    400042: stlBedSheet_6891
+    400044: stlBedSheet_6891.Shape
+    400046: stlBinders_112
+    400048: stlBinders_112.Shape
+    400050: stlBooks_596
+    400052: stlBooks_596.Shape
+    400054: stlButress1_1132
+    400056: stlButress1_1132.Shape
+    400058: stlButress2_1132
+    400060: stlButress2_1132.Shape
+    400062: stlCables_1596
+    400064: stlCables_1596.Shape
+    400066: stlCeiling
+    400068: stlCeiling.Shape
+    400070: stlCeilingLight_402
+    400072: stlCeilingLight_402.Shape
+    400074: stlDoor1_430
+    400076: stlDoor1_430.Shape
+    400078: stlEntrance
+    400080: stlEntrance.Shape
+    400082: stlFloor2_864
+    400084: stlFloor2_864.Shape
+    400086: stlFloor3_864
+    400088: stlFloor3_864.Shape
+    400090: stlFloor4_864
+    400092: stlFloor4_864.Shape
+    400094: stlFloor_8438
+    400096: stlFloor_8438.Shape
+    400098: stlLatte_426
+    400100: stlLatte_426.Shape
+    400102: stlOutside_15
+    400104: stlOutside_15.Shape
+    400106: stlPCRack_4120
+    400108: stlPCRack_4120.Shape
+    400110: stlPhotos01_138
+    400112: stlPhotos01_138.Shape
+    400114: stlPhotos2_28
+    400116: stlPhotos2_28.Shape
+    400118: stlPillow01_652
+    400120: stlPillow01_652.Shape
+    400122: stlPillow02_652
+    400124: stlPillow02_652.Shape
+    400126: stlPipes_5899
+    400128: stlPipes_5899.Shape
+    400130: stlRifle_11278
+    400132: stlRifle_11278.Shape
+    400134: stlScreen_880
+    400136: stlScreen_880.Shape
+    400138: stlShelf_192
+    400140: stlShelf_192.Shape
+    400142: stlShelfBox_30
+    400144: stlShelfBox_30.Shape
+    400146: stlWall2_1294
+    400148: stlWall2_1294.Shape
+    400150: stlWall2Window_9
+    400152: stlWall2Window_9.Shape
+    400154: stlWall3_4056
+    400156: stlWall3_4056.Shape
+    400158: stlWall4_4056
+    400160: stlWall4_4056.Shape
+    400162: stlWallCapping_9446
+    400164: stlWallCapping_9446.Shape
+    400166: stlWallLeft_3061
+    400168: stlWallLeft_3061.Shape
+    400170: UberEnvironment2 2
+    400172: UberEnvironment2 2 1
+    2300000: environmentSphere_1923.Shape
+    2300002: environmentSphere_1923.Shape 1
+    2300004: omLightPlane.Shape
+    2300006: omLightPlane.Shape 1
+    2300008: stlBanana_345.Shape
+    2300010: stlBanzai_3584.Shape
+    2300012: stlBedAlcove_6577.Shape
+    2300014: stlBedSheet_6891.Shape
+    2300016: stlBinders_112.Shape
+    2300018: stlBooks_596.Shape
+    2300020: stlButress1_1132.Shape
+    2300022: stlButress2_1132.Shape
+    2300024: stlCables_1596.Shape
+    2300026: stlCeiling.Shape
+    2300028: stlCeilingLight_402.Shape
+    2300030: stlDoor1_430.Shape
+    2300032: stlEntrance.Shape
+    2300034: stlFloor2_864.Shape
+    2300036: stlFloor3_864.Shape
+    2300038: stlFloor4_864.Shape
+    2300040: stlFloor_8438.Shape
+    2300042: stlLatte_426.Shape
+    2300044: stlOutside_15.Shape
+    2300046: stlPCRack_4120.Shape
+    2300048: stlPhotos01_138.Shape
+    2300050: stlPhotos2_28.Shape
+    2300052: stlPillow01_652.Shape
+    2300054: stlPillow02_652.Shape
+    2300056: stlPipes_5899.Shape
+    2300058: stlRifle_11278.Shape
+    2300060: stlScreen_880.Shape
+    2300062: stlShelf_192.Shape
+    2300064: stlShelfBox_30.Shape
+    2300066: stlWall2_1294.Shape
+    2300068: stlWall2Window_9.Shape
+    2300070: stlWall3_4056.Shape
+    2300072: stlWall4_4056.Shape
+    2300074: stlWallCapping_9446.Shape
+    2300076: stlWallLeft_3061.Shape
+    3300000: environmentSphere_1923.Shape
+    3300002: environmentSphere_1923.Shape 1
+    3300004: omLightPlane.Shape
+    3300006: omLightPlane.Shape 1
+    3300008: stlBanana_345.Shape
+    3300010: stlBanzai_3584.Shape
+    3300012: stlBedAlcove_6577.Shape
+    3300014: stlBedSheet_6891.Shape
+    3300016: stlBinders_112.Shape
+    3300018: stlBooks_596.Shape
+    3300020: stlButress1_1132.Shape
+    3300022: stlButress2_1132.Shape
+    3300024: stlCables_1596.Shape
+    3300026: stlCeiling.Shape
+    3300028: stlCeilingLight_402.Shape
+    3300030: stlDoor1_430.Shape
+    3300032: stlEntrance.Shape
+    3300034: stlFloor2_864.Shape
+    3300036: stlFloor3_864.Shape
+    3300038: stlFloor4_864.Shape
+    3300040: stlFloor_8438.Shape
+    3300042: stlLatte_426.Shape
+    3300044: stlOutside_15.Shape
+    3300046: stlPCRack_4120.Shape
+    3300048: stlPhotos01_138.Shape
+    3300050: stlPhotos2_28.Shape
+    3300052: stlPillow01_652.Shape
+    3300054: stlPillow02_652.Shape
+    3300056: stlPipes_5899.Shape
+    3300058: stlRifle_11278.Shape
+    3300060: stlScreen_880.Shape
+    3300062: stlShelf_192.Shape
+    3300064: stlShelfBox_30.Shape
+    3300066: stlWall2_1294.Shape
+    3300068: stlWall2Window_9.Shape
+    3300070: stlWall3_4056.Shape
+    3300072: stlWall4_4056.Shape
+    3300074: stlWallCapping_9446.Shape
+    3300076: stlWallLeft_3061.Shape
+    4300000: stlDoor1_430.Shape
+    4300002: stlWallLeft_3061.Shape
+    4300004: stlPCRack_4120.Shape
+    4300006: stlWall2_1294.Shape
+    4300008: stlCables_1596.Shape
+    4300010: stlScreen_880.Shape
+    4300012: stlWall2Window_9.Shape
+    4300014: stlPhotos01_138.Shape
+    4300016: stlBinders_112.Shape
+    4300018: stlBanzai_3584.Shape
+    4300020: stlShelfBox_30.Shape
+    4300022: stlBooks_596.Shape
+    4300024: stlBanana_345.Shape
+    4300026: stlLatte_426.Shape
+    4300028: stlShelf_192.Shape
+    4300030: stlPipes_5899.Shape
+    4300032: stlPillow02_652.Shape
+    4300034: stlPillow01_652.Shape
+    4300036: stlRifle_11278.Shape
+    4300038: stlBedSheet_6891.Shape
+    4300040: stlPhotos2_28.Shape
+    4300042: stlBedAlcove_6577.Shape
+    4300044: stlButress2_1132.Shape
+    4300046: stlButress1_1132.Shape
+    4300048: stlWallCapping_9446.Shape
+    4300050: stlWall4_4056.Shape
+    4300052: stlFloor4_864.Shape
+    4300054: stlWall3_4056.Shape
+    4300056: stlFloor3_864.Shape
+    4300058: stlFloor2_864.Shape
+    4300060: stlOutside_15.Shape
+    4300062: stlCeilingLight_402.Shape
+    4300064: stlCeiling.Shape
+    4300066: stlEntrance.Shape
+    4300068: stlFloor_8438.Shape
+    4300070: omLightPlane.Shape
+    4300072: environmentSphere_1923.Shape
+    4300074: omLightPlane.Shape
+    4300076: environmentSphere_1923.Shape
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

@@ -1,0 +1,138 @@
+fileFormatVersion: 2
+guid: 8dd4c83037aef08488a318d48964bf07
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: bridgeshell_22198.Shape
+    100002: Lower_Deck
+    100004: lowerdeck_1000.Shape
+    100006: lowerdeck_1000.Shape1
+    100008: lowerdeck_2974.Shape
+    100010: lowerdeck_2974.Shape1
+    100012: lowerdeck_310.Shape
+    100014: lowerdeck_310.Shape1
+    100016: lowerdeck_3622.Shape
+    100018: lowerdeck_4314.Shape
+    100020: lowerdeck_4314.Shape1
+    100022: //RootNode
+    100024: Upper_Deck
+    100026: Upper_Deck_Seats
+    100028: upperdeck_25717.Shape
+    100030: upperdeck_5271.Shape
+    100032: upperdeck_6046.Shape
+    100034: upperdeck_630.Shape
+    400000: bridgeshell_22198.Shape
+    400002: Lower_Deck
+    400004: lowerdeck_1000.Shape
+    400006: lowerdeck_1000.Shape1
+    400008: lowerdeck_2974.Shape
+    400010: lowerdeck_2974.Shape1
+    400012: lowerdeck_310.Shape
+    400014: lowerdeck_310.Shape1
+    400016: lowerdeck_3622.Shape
+    400018: lowerdeck_4314.Shape
+    400020: lowerdeck_4314.Shape1
+    400022: //RootNode
+    400024: Upper_Deck
+    400026: Upper_Deck_Seats
+    400028: upperdeck_25717.Shape
+    400030: upperdeck_5271.Shape
+    400032: upperdeck_6046.Shape
+    400034: upperdeck_630.Shape
+    2300000: bridgeshell_22198.Shape
+    2300002: lowerdeck_1000.Shape
+    2300004: lowerdeck_1000.Shape1
+    2300006: lowerdeck_2974.Shape
+    2300008: lowerdeck_2974.Shape1
+    2300010: lowerdeck_310.Shape
+    2300012: lowerdeck_310.Shape1
+    2300014: lowerdeck_3622.Shape
+    2300016: lowerdeck_4314.Shape
+    2300018: lowerdeck_4314.Shape1
+    2300020: upperdeck_25717.Shape
+    2300022: upperdeck_5271.Shape
+    2300024: upperdeck_6046.Shape
+    2300026: upperdeck_630.Shape
+    3300000: bridgeshell_22198.Shape
+    3300002: lowerdeck_1000.Shape
+    3300004: lowerdeck_1000.Shape1
+    3300006: lowerdeck_2974.Shape
+    3300008: lowerdeck_2974.Shape1
+    3300010: lowerdeck_310.Shape
+    3300012: lowerdeck_310.Shape1
+    3300014: lowerdeck_3622.Shape
+    3300016: lowerdeck_4314.Shape
+    3300018: lowerdeck_4314.Shape1
+    3300020: upperdeck_25717.Shape
+    3300022: upperdeck_5271.Shape
+    3300024: upperdeck_6046.Shape
+    3300026: upperdeck_630.Shape
+    4300000: upperdeck_6046.Shape
+    4300002: upperdeck_630.Shape
+    4300004: upperdeck_5271.Shape
+    4300006: upperdeck_25717.Shape
+    4300008: bridgeshell_22198.Shape
+    4300010: lowerdeck_1000.Shape
+    4300012: lowerdeck_4314.Shape
+    4300014: lowerdeck_310.Shape
+    4300016: lowerdeck_2974.Shape
+    4300018: lowerdeck_1000.Shape1
+    4300020: lowerdeck_4314.Shape1
+    4300022: lowerdeck_310.Shape1
+    4300024: lowerdeck_2974.Shape1
+    4300026: lowerdeck_3622.Shape
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

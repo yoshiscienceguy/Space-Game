@@ -1,0 +1,219 @@
+fileFormatVersion: 2
+guid: 5ff79fb6a17973e45be4b92fce642c81
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Box1
+    100002: Box1.Shape
+    100004: Box1.Shape_MeshPart0
+    100006: Box1.Shape_MeshPart1
+    100008: Box2
+    100010: Box2.Shape
+    100012: Box3
+    100014: Box3.Shape
+    100016: Box4
+    100018: Box4.Shape
+    100020: Box4.Shape_MeshPart0
+    100022: Box4.Shape_MeshPart1
+    100024: Bracket
+    100026: Bracket 1
+    100028: Bracket 2
+    100030: Cage1
+    100032: Cage1.Shape
+    100034: Cage2
+    100036: Cage2.Shape
+    100038: Cap
+    100040: CapL
+    100042: CapR
+    100044: Container1
+    100046: Container1.Shape
+    100048: Container2
+    100050: Container2.Shape
+    100052: Container3
+    100054: Container3.Shape
+    100056: Container4
+    100058: Container4.Shape
+    100060: Containers
+    100062: Cylinder Gas
+    100064: Cylinder Gas.Shape
+    100066: Gas cylinder2
+    100068: Gas cylinder2.Shape
+    100070: Handle
+    100072: Handle1
+    100074: Handle2
+    100076: HandleL
+    100078: HandleL 1
+    100080: HandleL 2
+    100082: HandleL 3
+    100084: HandleL 4
+    100086: HandleR
+    100088: HandleR 1
+    100090: HandleR 2
+    100092: HandleR 3
+    100094: HandleR 4
+    100096: HandlesL
+    100098: HandlesR
+    100100: hip
+    100102: hip 1
+    100104: hip 2
+    100106: hip 3
+    100108: hip 4
+    100110: hip 5
+    100112: hip 6
+    100114: hip 7
+    100116: hip 8
+    100118: Lock
+    100120: Needle
+    100122: Piston1
+    100124: Piston2
+    100126: //RootNode
+    400000: Box1
+    400002: Box1.Shape
+    400004: Box1.Shape_MeshPart0
+    400006: Box1.Shape_MeshPart1
+    400008: Box2
+    400010: Box2.Shape
+    400012: Box3
+    400014: Box3.Shape
+    400016: Box4
+    400018: Box4.Shape
+    400020: Box4.Shape_MeshPart0
+    400022: Box4.Shape_MeshPart1
+    400024: Bracket
+    400026: Bracket 1
+    400028: Bracket 2
+    400030: Cage1
+    400032: Cage1.Shape
+    400034: Cage2
+    400036: Cage2.Shape
+    400038: Cap
+    400040: CapL
+    400042: CapR
+    400044: Container1
+    400046: Container1.Shape
+    400048: Container2
+    400050: Container2.Shape
+    400052: Container3
+    400054: Container3.Shape
+    400056: Container4
+    400058: Container4.Shape
+    400060: Containers
+    400062: Cylinder Gas
+    400064: Cylinder Gas.Shape
+    400066: Gas cylinder2
+    400068: Gas cylinder2.Shape
+    400070: Handle
+    400072: Handle1
+    400074: Handle2
+    400076: HandleL
+    400078: HandleL 1
+    400080: HandleL 2
+    400082: HandleL 3
+    400084: HandleL 4
+    400086: HandleR
+    400088: HandleR 1
+    400090: HandleR 2
+    400092: HandleR 3
+    400094: HandleR 4
+    400096: HandlesL
+    400098: HandlesR
+    400100: hip
+    400102: hip 1
+    400104: hip 2
+    400106: hip 3
+    400108: hip 4
+    400110: hip 5
+    400112: hip 6
+    400114: hip 7
+    400116: hip 8
+    400118: Lock
+    400120: Needle
+    400122: Piston1
+    400124: Piston2
+    400126: //RootNode
+    2300000: Cage1.Shape
+    2300002: Cage2.Shape
+    2300004: Container1.Shape
+    3300000: Cage1.Shape
+    3300002: Cage2.Shape
+    3300004: Container1.Shape
+    4300000: Box1.Shape_MeshPart0
+    4300002: Box1.Shape_MeshPart1
+    4300004: Box2.Shape
+    4300006: Box3.Shape
+    4300008: Box4.Shape_MeshPart0
+    4300010: Box4.Shape_MeshPart1
+    4300012: Cage1.Shape
+    4300014: Cage2.Shape
+    4300016: Container3.Shape
+    4300018: Container4.Shape
+    4300020: Cylinder Gas.Shape
+    4300022: Gas cylinder2.Shape
+    4300024: Container1.Shape
+    4300026: Container2.Shape
+    9500000: //RootNode
+    13700000: Box1.Shape_MeshPart0
+    13700002: Box1.Shape_MeshPart1
+    13700004: Box2.Shape
+    13700006: Box3.Shape
+    13700008: Box4.Shape_MeshPart0
+    13700010: Box4.Shape_MeshPart1
+    13700012: Container2.Shape
+    13700014: Container3.Shape
+    13700016: Container4.Shape
+    13700018: Cylinder Gas.Shape
+    13700020: Gas cylinder2.Shape
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
