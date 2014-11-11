@@ -44,10 +44,6 @@ public class Bullet : MonoBehaviour {
 //		}
 	}
 
-	void OnTriggerEnter(Collision col){
-
-	}
-
 	void OnCollisionEnter(Collision col) {
 		Debug.Log ("Bullet hit something so");
 		//Destroy(col.gameObject);
