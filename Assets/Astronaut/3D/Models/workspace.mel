@@ -1,0 +1,4 @@
+//Maya 2012 Project Definition
+
+workspace -fr "templates" "";
+workspace -fr "particles" "particles";
