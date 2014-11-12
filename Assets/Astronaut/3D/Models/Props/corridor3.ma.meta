@@ -1,0 +1,134 @@
+fileFormatVersion: 2
+guid: 792004e04b2e29f4499f39d16b0d238e
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: NSSRECBooth_18734.Shape
+    100004: NSSRECBooth_18734.Shape1
+    100006: NSSRECBooth_18734.Shape2
+    100008: NSSRECHallDoors_14772.Shape
+    100010: NSSRECHallDoors_14772.Shape1
+    100012: NSSRECRecLounge_211130.Shape
+    100014: NSSRECRecLounge_211130.Shape_MeshPart0
+    100016: NSSRECRecLounge_211130.Shape_MeshPart1
+    100018: NSSRECRecLounge_211130.Shape_MeshPart2
+    100020: NSSRECTable_40571.Shape
+    100022: NSSRECTable_40571.Shape1
+    100024: NSSRECTable_40571.Shape2
+    100026: NSSRECTable_40571.Shape3
+    100028: NSSRECTable_40571.Shape4
+    100030: NSSRECViewScr1_2662.Shape
+    400000: //RootNode
+    400002: NSSRECBooth_18734.Shape
+    400004: NSSRECBooth_18734.Shape1
+    400006: NSSRECBooth_18734.Shape2
+    400008: NSSRECHallDoors_14772.Shape
+    400010: NSSRECHallDoors_14772.Shape1
+    400012: NSSRECRecLounge_211130.Shape
+    400014: NSSRECRecLounge_211130.Shape_MeshPart0
+    400016: NSSRECRecLounge_211130.Shape_MeshPart1
+    400018: NSSRECRecLounge_211130.Shape_MeshPart2
+    400020: NSSRECTable_40571.Shape
+    400022: NSSRECTable_40571.Shape1
+    400024: NSSRECTable_40571.Shape2
+    400026: NSSRECTable_40571.Shape3
+    400028: NSSRECTable_40571.Shape4
+    400030: NSSRECViewScr1_2662.Shape
+    2300000: NSSRECBooth_18734.Shape
+    2300002: NSSRECBooth_18734.Shape1
+    2300004: NSSRECBooth_18734.Shape2
+    2300006: NSSRECHallDoors_14772.Shape
+    2300008: NSSRECHallDoors_14772.Shape1
+    2300010: NSSRECRecLounge_211130.Shape_MeshPart0
+    2300012: NSSRECRecLounge_211130.Shape_MeshPart1
+    2300014: NSSRECRecLounge_211130.Shape_MeshPart2
+    2300016: NSSRECTable_40571.Shape
+    2300018: NSSRECTable_40571.Shape1
+    2300020: NSSRECTable_40571.Shape2
+    2300022: NSSRECTable_40571.Shape3
+    2300024: NSSRECTable_40571.Shape4
+    2300026: NSSRECViewScr1_2662.Shape
+    3300000: NSSRECBooth_18734.Shape
+    3300002: NSSRECBooth_18734.Shape1
+    3300004: NSSRECBooth_18734.Shape2
+    3300006: NSSRECHallDoors_14772.Shape
+    3300008: NSSRECHallDoors_14772.Shape1
+    3300010: NSSRECRecLounge_211130.Shape_MeshPart0
+    3300012: NSSRECRecLounge_211130.Shape_MeshPart1
+    3300014: NSSRECRecLounge_211130.Shape_MeshPart2
+    3300016: NSSRECTable_40571.Shape
+    3300018: NSSRECTable_40571.Shape1
+    3300020: NSSRECTable_40571.Shape2
+    3300022: NSSRECTable_40571.Shape3
+    3300024: NSSRECTable_40571.Shape4
+    3300026: NSSRECViewScr1_2662.Shape
+    4300000: NSSRECHallDoors_14772.Shape
+    4300002: NSSRECHallDoors_14772.Shape1
+    4300004: NSSRECViewScr1_2662.Shape
+    4300006: NSSRECTable_40571.Shape
+    4300008: NSSRECTable_40571.Shape1
+    4300010: NSSRECTable_40571.Shape2
+    4300012: NSSRECTable_40571.Shape3
+    4300014: NSSRECTable_40571.Shape4
+    4300016: NSSRECBooth_18734.Shape
+    4300018: NSSRECBooth_18734.Shape1
+    4300020: NSSRECBooth_18734.Shape2
+    4300022: NSSRECRecLounge_211130.Shape_MeshPart0
+    4300024: NSSRECRecLounge_211130.Shape_MeshPart1
+    4300026: NSSRECRecLounge_211130.Shape_MeshPart2
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

@@ -50,14 +50,37 @@
      <Compile Include="Assets\Astronaut\3D\Scripts\Camera2DFollow_WithoutDying.cs" />
      <Compile Include="Assets\Astronaut\3D\Scripts\Death.cs" />
      <Compile Include="Assets\Astronaut\3D\Scripts\DestroyModel.cs" />
+     <Compile Include="Assets\Astronaut\3D\Scripts\Enemy\BlobMoveScript.cs" />
+     <Compile Include="Assets\Astronaut\3D\Scripts\Enemy\Blob_AI.cs" />
+     <Compile Include="Assets\Astronaut\3D\Scripts\Enemy\EnemyHealth.cs" />
+     <Compile Include="Assets\Astronaut\3D\Scripts\Enemy\EnemyMoveScript.cs" />
+     <Compile Include="Assets\Astronaut\3D\Scripts\Enemy\MeleeAttack.cs" />
      <Compile Include="Assets\Astronaut\3D\Scripts\GameCamera.cs" />
      <Compile Include="Assets\Astronaut\3D\Scripts\GameManager.cs" />
      <Compile Include="Assets\Astronaut\3D\Scripts\HideModel.cs" />
+     <Compile Include="Assets\Astronaut\3D\Scripts\MobilePlatformController.cs" />
+     <Compile Include="Assets\Astronaut\3D\Scripts\MovingPlatform.cs" />
+     <Compile Include="Assets\Astronaut\3D\Scripts\Platform.cs" />
      <Compile Include="Assets\Astronaut\3D\Scripts\PlayerController.cs" />
      <Compile Include="Assets\Astronaut\3D\Scripts\PlayerPhysics.cs" />
+     <Compile Include="Assets\Astronaut\3D\Scripts\Proximity.cs" />
      <Compile Include="Assets\Astronaut\3D\Scripts\SimpleFollow.cs" />
      <Compile Include="Assets\Astronaut\3D\Scripts\box_rotating.cs" />
+     <Compile Include="Assets\Bullet.cs" />
+     <Compile Include="Assets\CharacterMovementSimple.cs" />
+     <Compile Include="Assets\Inside_Out_Color.cs" />
+     <Compile Include="Assets\Moving_Platform.cs" />
      <Compile Include="Assets\Parent2Child.cs" />
+     <Compile Include="Assets\Scripts\PlayerControl.cs" />
+     <Compile Include="Assets\Scripts\ThirdPersonCharacter.cs" />
+     <Compile Include="Assets\Scripts\ThirdPersonUserControl.cs" />
+ <Reference Include="Assembly-UnityScript-firstpass">
+ <HintPath>C:/Users/Fernando/Documents/GitHub/Space-Game/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass-vs.csproj">
+      <Project>{05D38A39-CBB7-E03F-8B65-544AF136718E}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
