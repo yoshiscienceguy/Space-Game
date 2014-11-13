@@ -9,7 +9,7 @@ public class Blob_AI : MonoBehaviour {
 	private static int mergeLimit = 5;
 	public bool MasterBlob = false;
 	private GameObject[] blobs = null;
-	private EnemyMoveScript ems;
+	private BlobMoveScript ems;
 
 	// Use this for initialization
 	void Start () {
