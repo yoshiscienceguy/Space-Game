@@ -4,6 +4,7 @@ using System.Collections;
 public class MeleeAttack : MonoBehaviour {
 
 	GameObject player;
+	public AudioClip atkSound;
 	private float nextAttack = 0.0F;
 	private float attackSpeed = 1f;
 	private int Damage = 1;
@@ -21,6 +22,8 @@ public class MeleeAttack : MonoBehaviour {
 		if(distance < 3f) {
 			if(nextAttack<Time.time){
 				player.GetComponent<PlayerController>().Hurt(Damage);
+
+				audio.PlayOneShot(atkSound,0.5f);
 				nextAttack = Time.time+attackSpeed;
 			}
 		}

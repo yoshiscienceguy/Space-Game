@@ -123,7 +123,7 @@ ModelImporter:
     4300038: polySurface55
     4300040: polySurface56
     4300042: polySurface57
-    7400000: Take 001
+    7400000: Sentry Gun2 Shooting
     9500000: //RootNode
   materials:
     importMaterials: 1
@@ -140,7 +140,87 @@ ModelImporter:
     animationScaleError: .5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Sentry Gun2 Shooting
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 24
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: polySurface34
+        weight: 1
+      - path: polySurface34/polySurface35
+        weight: 1
+      - path: polySurface34/polySurface36
+        weight: 1
+      - path: polySurface34/polySurface38
+        weight: 1
+      - path: polySurface34/polySurface39
+        weight: 1
+      - path: polySurface34/polySurface40
+        weight: 1
+      - path: polySurface34/polySurface41
+        weight: 1
+      - path: polySurface34/polySurface42
+        weight: 1
+      - path: polySurface34/polySurface43
+        weight: 1
+      - path: polySurface34/polySurface44
+        weight: 1
+      - path: polySurface34/polySurface45
+        weight: 1
+      - path: polySurface34/polySurface46
+        weight: 1
+      - path: polySurface34/polySurface47
+        weight: 1
+      - path: polySurface34/polySurface48
+        weight: 1
+      - path: polySurface34/polySurface49
+        weight: 1
+      - path: polySurface34/polySurface50
+        weight: 1
+      - path: polySurface34/polySurface51
+        weight: 1
+      - path: polySurface34/transform1
+        weight: 1
+      - path: polySurface37
+        weight: 1
+      - path: polySurface37/polySurface52
+        weight: 1
+      - path: polySurface37/polySurface53
+        weight: 1
+      - path: polySurface37/polySurface54
+        weight: 1
+      - path: polySurface37/polySurface55
+        weight: 1
+      - path: polySurface37/polySurface56
+        weight: 1
+      - path: polySurface37/polySurface57
+        weight: 1
+      - path: polySurface37/transform2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
     isReadable: 1
   meshes:
     lODScreenPercentages: []
