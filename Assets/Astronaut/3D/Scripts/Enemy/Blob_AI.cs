@@ -19,7 +19,7 @@ public class Blob_AI : MonoBehaviour {
 			Debug.Log("SLAVES : "+(blobs.Length-1));
 			//GameObject.FindObjectsOfType<Blob_AI>		
 		}
-		ems = GetComponent<EnemyMoveScript>();
+		ems = GetComponent<BlobMoveScript>();
 	}
 
 	void FixedUpdate(){
