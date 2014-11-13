@@ -1,0 +1,63 @@
+newmtl blinn1SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd -s 0.25 0.25 hull46L.jpg
+bump -s 0.25 0.25 hull46L_bump.jpg -bm 0.25
+Ni 1.00
+Ks 0.00 0.00 0.00
+map_Ks -s 0.25 0.25 hull46L_bump.jpg
+newmtl blinn2SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd -s 0.25 0.25 hull48L.jpg
+bump -s 0.25 0.25 hull48L_bump.jpg -bm 0.15
+Ni 1.00
+Ks 0.00 0.00 0.00
+map_Ks -s 0.25 0.25 hull48L_bump.jpg
+newmtl blinn3SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd -s 0.25 0.25 hull49L.jpg
+bump -s 0.25 0.25 hull49L_bump.jpg -bm 0.02
+Ni 1.00
+Ks 0.00 0.00 0.00
+map_Ks -s 0.25 0.25 hull49L_bump.jpg
+newmtl blinn4SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd -s 0.25 0.25 hull50L.jpg
+bump -s 0.25 0.25 hull50L_bump.jpg -bm 0.15
+Ni 1.00
+Ks 0.00 0.00 0.00
+map_Ks -s 0.25 0.25 hull50L_bump.jpg
+newmtl blinn5SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd -s 0.0666667 0.0666667 hull51L.jpg
+bump -s 0.0666667 0.0666667 hull51L_bump.jpg -bm 0.15
+Ni 1.00
+Ks 0.00 0.00 0.00
+map_Ks -s 0.0666667 0.0666667 hull51L_bump.jpg
+newmtl lambert2SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl light2SG
+illum 4
+Kd 1.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.50 0.50 0.50

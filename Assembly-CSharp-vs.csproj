@@ -69,12 +69,16 @@
      <Compile Include="Assets\Bullet.cs" />
      <Compile Include="Assets\CharacterMovementSimple.cs" />
      <Compile Include="Assets\Elevator_Trigger.cs" />
+     <Compile Include="Assets\Elevator_Trigger2.cs" />
      <Compile Include="Assets\Inside_Out_Color.cs" />
      <Compile Include="Assets\Moving_Platform.cs" />
      <Compile Include="Assets\Parent2Child.cs" />
+     <Compile Include="Assets\Sample Assets\2D\Scripts\Camera2DFollow.cs" />
+     <Compile Include="Assets\Sample Assets\2D\Scripts\CameraFollow.cs" />
      <Compile Include="Assets\Scripts\PlayerControl.cs" />
      <Compile Include="Assets\Scripts\ThirdPersonCharacter.cs" />
      <Compile Include="Assets\Scripts\ThirdPersonUserControl.cs" />
+     <Compile Include="Assets\Turret.cs" />
  <Reference Include="Assembly-UnityScript-firstpass">
  <HintPath>C:/Users/Fernando/Documents/GitHub/Space-Game/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
  </Reference>

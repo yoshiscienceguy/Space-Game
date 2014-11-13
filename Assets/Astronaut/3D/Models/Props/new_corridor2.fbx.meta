@@ -12,6 +12,16 @@ ModelImporter:
     100012: NSSODSecRoom_251487.Shape_MeshPart0
     100014: NSSODSecRoom_251487.Shape_MeshPart1
     100016: NSSODSecRoom_251487.Shape_MeshPart2
+    100018: left_door1
+    100020: NSSODSecRoom_1
+    100022: NSSODSecRoom_1_MeshPart0
+    100024: NSSODSecRoom_1_MeshPart1
+    100026: NSSODSecRoom_2
+    100028: NSSODSecRoom_2_MeshPart0
+    100030: NSSODSecRoom_2_MeshPart1
+    100032: NSSODSecRoom_2_MeshPart2
+    100034: NSSODSecRoom_console
+    100036: right_door2
     400000: //RootNode
     400002: NSSODSecConsole_45794.Shape
     400004: NSSODSecRoom_251487.Shape
@@ -21,24 +31,58 @@ ModelImporter:
     400012: NSSODSecRoom_251487.Shape_MeshPart0
     400014: NSSODSecRoom_251487.Shape_MeshPart1
     400016: NSSODSecRoom_251487.Shape_MeshPart2
+    400018: left_door1
+    400020: NSSODSecRoom_1
+    400022: NSSODSecRoom_1_MeshPart0
+    400024: NSSODSecRoom_1_MeshPart1
+    400026: NSSODSecRoom_2
+    400028: NSSODSecRoom_2_MeshPart0
+    400030: NSSODSecRoom_2_MeshPart1
+    400032: NSSODSecRoom_2_MeshPart2
+    400034: NSSODSecRoom_console
+    400036: right_door2
     2300000: NSSODSecConsole_45794.Shape
     2300002: NSSODSecRoom_251487.Shape1_MeshPart0
     2300004: NSSODSecRoom_251487.Shape1_MeshPart1
     2300006: NSSODSecRoom_251487.Shape_MeshPart0
     2300008: NSSODSecRoom_251487.Shape_MeshPart1
     2300010: NSSODSecRoom_251487.Shape_MeshPart2
+    2300012: left_door1
+    2300014: NSSODSecRoom_1_MeshPart0
+    2300016: NSSODSecRoom_1_MeshPart1
+    2300018: NSSODSecRoom_2_MeshPart0
+    2300020: NSSODSecRoom_2_MeshPart1
+    2300022: NSSODSecRoom_2_MeshPart2
+    2300024: NSSODSecRoom_console
+    2300026: right_door2
     3300000: NSSODSecConsole_45794.Shape
     3300002: NSSODSecRoom_251487.Shape1_MeshPart0
     3300004: NSSODSecRoom_251487.Shape1_MeshPart1
     3300006: NSSODSecRoom_251487.Shape_MeshPart0
     3300008: NSSODSecRoom_251487.Shape_MeshPart1
     3300010: NSSODSecRoom_251487.Shape_MeshPart2
+    3300012: left_door1
+    3300014: NSSODSecRoom_1_MeshPart0
+    3300016: NSSODSecRoom_1_MeshPart1
+    3300018: NSSODSecRoom_2_MeshPart0
+    3300020: NSSODSecRoom_2_MeshPart1
+    3300022: NSSODSecRoom_2_MeshPart2
+    3300024: NSSODSecRoom_console
+    3300026: right_door2
     4300000: NSSODSecConsole_45794.Shape
     4300002: NSSODSecRoom_251487.Shape_MeshPart0
     4300004: NSSODSecRoom_251487.Shape_MeshPart1
     4300006: NSSODSecRoom_251487.Shape_MeshPart2
     4300008: NSSODSecRoom_251487.Shape1_MeshPart0
     4300010: NSSODSecRoom_251487.Shape1_MeshPart1
+    4300012: NSSODSecRoom_console
+    4300014: NSSODSecRoom_2_MeshPart0
+    4300016: NSSODSecRoom_2_MeshPart1
+    4300018: NSSODSecRoom_2_MeshPart2
+    4300020: left_door1
+    4300022: right_door2
+    4300024: NSSODSecRoom_1_MeshPart0
+    4300026: NSSODSecRoom_1_MeshPart1
     9500000: //RootNode
   materials:
     importMaterials: 1
