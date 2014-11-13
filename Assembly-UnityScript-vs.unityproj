@@ -47,7 +47,6 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Astronaut\GUI Components\GUITestSkin.js" />
-     <Compile Include="Assets\Elevator_Test.js" />
  <Reference Include="Assembly-UnityScript-firstpass">
  <HintPath>C:/Users/Fernando/Documents/GitHub/Space-Game/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
  </Reference>

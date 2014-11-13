@@ -46,39 +46,25 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Astronaut\3D\Scripts\Astroid_rotation.cs" />
-     <Compile Include="Assets\Astronaut\3D\Scripts\Camera2DFollow_WithoutDying.cs" />
+     <Compile Include="Assets\Astronaut\3D\Models\Astronauts\PlayerController.cs" />
      <Compile Include="Assets\Astronaut\3D\Scripts\Death.cs" />
-     <Compile Include="Assets\Astronaut\3D\Scripts\DestroyModel.cs" />
-     <Compile Include="Assets\Astronaut\3D\Scripts\Enemy\BlobMoveScript.cs" />
-     <Compile Include="Assets\Astronaut\3D\Scripts\Enemy\Blob_AI.cs" />
-     <Compile Include="Assets\Astronaut\3D\Scripts\Enemy\EnemyHealth.cs" />
-     <Compile Include="Assets\Astronaut\3D\Scripts\Enemy\EnemyMoveScript.cs" />
-     <Compile Include="Assets\Astronaut\3D\Scripts\Enemy\MeleeAttack.cs" />
-     <Compile Include="Assets\Astronaut\3D\Scripts\GameCamera.cs" />
      <Compile Include="Assets\Astronaut\3D\Scripts\GameManager.cs" />
      <Compile Include="Assets\Astronaut\3D\Scripts\HideModel.cs" />
      <Compile Include="Assets\Astronaut\3D\Scripts\MobilePlatformController.cs" />
      <Compile Include="Assets\Astronaut\3D\Scripts\MovingPlatform.cs" />
      <Compile Include="Assets\Astronaut\3D\Scripts\Platform.cs" />
-     <Compile Include="Assets\Astronaut\3D\Scripts\PlayerController.cs" />
      <Compile Include="Assets\Astronaut\3D\Scripts\PlayerPhysics.cs" />
      <Compile Include="Assets\Astronaut\3D\Scripts\Proximity.cs" />
-     <Compile Include="Assets\Astronaut\3D\Scripts\SimpleFollow.cs" />
-     <Compile Include="Assets\Astronaut\3D\Scripts\box_rotating.cs" />
-     <Compile Include="Assets\Bullet.cs" />
-     <Compile Include="Assets\CharacterMovementSimple.cs" />
-     <Compile Include="Assets\Elevator_Trigger.cs" />
-     <Compile Include="Assets\Elevator_Trigger2.cs" />
-     <Compile Include="Assets\Inside_Out_Color.cs" />
-     <Compile Include="Assets\Moving_Platform.cs" />
-     <Compile Include="Assets\Parent2Child.cs" />
-     <Compile Include="Assets\Sample Assets\2D\Scripts\Camera2DFollow.cs" />
-     <Compile Include="Assets\Sample Assets\2D\Scripts\CameraFollow.cs" />
-     <Compile Include="Assets\Scripts\PlayerControl.cs" />
+     <Compile Include="Assets\Scripts\Bullet.cs" />
+     <Compile Include="Assets\Scripts\Enemy\BlobMoveScript.cs" />
+     <Compile Include="Assets\Scripts\Enemy\Blob_AI.cs" />
+     <Compile Include="Assets\Scripts\Enemy\EnemyHealth.cs" />
+     <Compile Include="Assets\Scripts\Enemy\EnemyMoveScript.cs" />
+     <Compile Include="Assets\Scripts\Enemy\MeleeAttack.cs" />
+     <Compile Include="Assets\Scripts\Inside_Out_Color.cs" />
      <Compile Include="Assets\Scripts\ThirdPersonCharacter.cs" />
      <Compile Include="Assets\Scripts\ThirdPersonUserControl.cs" />
-     <Compile Include="Assets\Turret.cs" />
+     <Compile Include="Assets\Scripts\Turret.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
