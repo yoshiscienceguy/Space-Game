@@ -68,6 +68,7 @@
      <Compile Include="Assets\Astronaut\3D\Scripts\box_rotating.cs" />
      <Compile Include="Assets\Bullet.cs" />
      <Compile Include="Assets\CharacterMovementSimple.cs" />
+     <Compile Include="Assets\Elevator_Trigger.cs" />
      <Compile Include="Assets\Inside_Out_Color.cs" />
      <Compile Include="Assets\Moving_Platform.cs" />
      <Compile Include="Assets\Parent2Child.cs" />

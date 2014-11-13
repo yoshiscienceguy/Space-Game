@@ -2,11 +2,10 @@ using UnityEngine;
 using System.Collections;
 
 
-[RequireComponent (typeof(BoxCollider))]
+
 public class PlayerPhysics : MonoBehaviour {
 	
 	public LayerMask collisionMask;
-
 	private BoxCollider collider;
 	private Vector3 s;
 	private Vector3 c;
@@ -19,7 +18,12 @@ public class PlayerPhysics : MonoBehaviour {
 	private int collisionDivisionsY =10;
 	
 	private float skin = .005f;
-	
+
+
+	private Transform platform;
+	private Vector3 platformPositionOld;
+	private Vector3 deltaPosition;
+
 	[HideInInspector]
 	public bool grounded;
 	[HideInInspector]
@@ -42,7 +46,12 @@ public class PlayerPhysics : MonoBehaviour {
 		float deltaY = moveAmount.y;
 		float deltaX = moveAmount.x;
 		Vector2 p = transform.position;
-		
+		if (platform) {
+			deltaPosition = platform.position - platformPositionOld;
+		}
+		else{
+			deltaPosition = Vector3.zero;
+		}
 		// Check collisions above and below
 		grounded = false;
 		
@@ -56,6 +65,9 @@ public class PlayerPhysics : MonoBehaviour {
 			
 			if (Physics.Raycast(ray,out hit,Mathf.Abs(deltaY) + skin,collisionMask)) {
 				// Get Distance between player and ground
+				platform = hit.transform;
+				platformPositionOld = platform.position;
+
 				float dst = Vector3.Distance (ray.origin, hit.point);
 				
 				// Stop player's downwards movement after coming within skin width of a collider
@@ -71,9 +83,12 @@ public class PlayerPhysics : MonoBehaviour {
 				break;
 				
 			}
+			else{
+				platform = null;
+			}
 		}
 		
-		
+
 		// Check collisions left and right
 		movementStopped = false;
 		for (int i = 0; i<collisionDivisionsY; i ++) {
@@ -112,11 +127,9 @@ public class PlayerPhysics : MonoBehaviour {
 				deltaY = 0;
 			}
 		}
+	
+		Vector2 finalTransform = new Vector2(deltaX ,deltaY+ deltaPosition.y);
 
-
-		Vector2 finalTransform = new Vector2(deltaX,deltaY);
-		
-		transform.Translate(finalTransform,Space.World);
 	}
 	
 	// Set collider

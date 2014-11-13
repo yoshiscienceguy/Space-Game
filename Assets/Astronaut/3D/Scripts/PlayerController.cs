@@ -5,49 +5,49 @@ using System.Collections;
 public class PlayerController : MonoBehaviour {
 	
 	// Player Handling
-	public float gravity = 20;
-	public float walkSpeed = 8;
-	public float runSpeed = 12;
-	public float acceleration = 30;
-	public float jumpHeight = 12;
-	public float slideDeceleration = 10;
-	public float previous_loc = 2;
-	public float climbSpeed = 15;
 
+	private float walkSpeed = 8;
+	private float runSpeed = 12;
+	private float acceleration = 30;
+	private float jumpHeight = 12;
+	private float slideDeceleration = 10;
+	private float previous_loc = 2;
+	private float climbSpeed = 15;
+	
 	//Stats
 	private int oriMaxHP = 100;
 	private int curHP = 100;
 	private int curMAXHP = 100;
-
+	
 	private int oriMaxOXY = 100;
 	private int curOXY = 100;
 	private int curMAXOXY = 100;
-
+	
 	private int oriMaxMat = 100;
 	private int curMat = 100;
 	private int curMAXMat = 100;
-
+	
 	private int oriMaxFuel = 100;
 	private int curFuel = 100;
 	private int curMAXFuel = 100;
-
+	
 	// System
-
+	
 	private float animationSpeed;
 	private float currentSpeed;
 	private float targetSpeed;
 	private Vector2 amountToMove;
-
+	
 	//bullets
 	public  Rigidbody  Bullet;
-
+	
 	// States
 	private bool jumping;
 	private bool sliding;
 	private bool fired;
-
+	
 	private float location;
-
+	
 	// Components
 	private PlayerPhysics playerPhysics;
 	private Animator animator;
@@ -65,16 +65,16 @@ public class PlayerController : MonoBehaviour {
 		}
 		if (Input.GetKeyUp ("w")) {
 			animator.SetBool("ClimbingUP", false);
-
+			
 		}
-	
+		
 	}
 	void ClimbDOWN (float movedir){
 		if (Input.GetKeyDown ("s")) {
 			transform.eulerAngles = (movedir==0)?Vector3.up * 360:Vector3.zero;
 			if (Input.GetKeyDown ("a") || Input.GetKeyDown ("d")){
 				animator.SetBool("ClimbingDOWN", false);
-
+				
 			}
 			else{
 				animator.SetBool("ClimbingDOWN", true);		
@@ -82,7 +82,7 @@ public class PlayerController : MonoBehaviour {
 		}
 		if (Input.GetKeyUp ("s")) {
 			animator.SetBool("ClimbingDOWN", false);
-
+			
 		}
 	}
 	void Falling(float prev_loc){
@@ -95,7 +95,7 @@ public class PlayerController : MonoBehaviour {
 			animator.SetBool("Falling", true);
 		}
 	}
-
+	
 	void Crouch(){
 		if (Input.GetKeyDown ("c")) {
 			animator.SetBool ("Crouch",true);
@@ -104,58 +104,61 @@ public class PlayerController : MonoBehaviour {
 			animator.SetBool ("Crouch",false);
 		}
 	}
-
+	
 	void Reload(){
 		if (Input.GetKeyDown ("r")) {
 			animator.SetBool ("Reload",true);
 		}
-
+		
 		if (Input.GetKeyUp ("r")) {
 			animator.SetBool ("Reload",false);
 		}
-
-
+		
+		
 	}
 	void Shoot(){
 		if (Input.GetMouseButtonDown (0)) {
 			Debug.Log("FIRING"+gameObject.GetComponent<BoxCollider>().size.y);
 			animator.SetBool("Fire",true);
-
+			
 			//Vector3 direction = Camera.main.ScreenToWorldPoint ( new Vector3 ( Input.mousePosition.x, Input.mousePosition.y, 1000 ) );
 			//direction = direction-transform.position;
 			//Debug.DrawLine (transform.position, direction);
 			//direction.Normalize();
 			//Debug.Log("DIRECTION : "+direction);
-
-
-		//	RaycastHit hit ;
-		//	var ray = Camera.main.ScreenPointToRay (Input.mousePosition);
-//			Physics.Raycast (ray, hit, 100);
+			
+			
+			//	RaycastHit hit ;
+			//	var ray = Camera.main.ScreenPointToRay (Input.mousePosition);
+			//			Physics.Raycast (ray, hit, 100);
 			float a = gameObject.GetComponent<BoxCollider>().size.y/4;
 			Debug.Log(transform.position+"---"+a+":"+(transform.position.y+a));
 			//Vector3 firingPos = new Vector3( transform.position.x, transform.position.y+a , 0);
 			var projectile = Instantiate(Bullet, transform.position, Quaternion.identity) as Rigidbody;
-
+			
 			curMat--;
 			//var projectile = Instantiate(Bullet, transform.position, Quaternion.Euler(new Vector4(0,0,0,Mathf.Atan2 ( direction.y, direction.x ) * Mathf.Rad2Deg ))) as Rigidbody;
 			//projectile.velocity = direction * 5f;
 			// turn the projectile to hit.point
-		//	projectile.transform.LookAt(hit.point);
+			//	projectile.transform.LookAt(hit.point);
 			// accelerate it
 			//projectile.rigidbody.AddForce(transform.forward* 1000000f,ForceMode.Impulse);
 			//Debug.Log(transform.forward);
 			DestroyObject(projectile.gameObject,3f);
 			//Destroy(projectile as GameObject,3f);
 			Debug.Log("FIRING WHY NO?");
-//			float XvelocityVector =(Camera.main.ScreenToWorldPoint(Input.mousePosition).x) - (transform.position.x);
-//			float YvelocityVector = (Camera.main.ScreenToWorldPoint(Input.mousePosition).y) - (transform.position.y);
-//			Vector2 direction = new Vector2(XvelocityVector,YvelocityVector);
-//			direction.Normalize();
-//			Rigidbody  instanceBullet = Instantiate
-//					(Bullet,
-//				 transform.position, Quaternion.identity) as  Rigidbody ;
-//			instanceBullet.rigidbody.AddForce(transform.forward *
-//			                                  2f);
+			//			float XvelocityVector =(Camera.main.ScreenToWorldPoint(Input.mousePosition).x) - (transform.position.x);
+			//			float YvelocityVector = (Camera.main.ScreenToWorldPoint(Input.mousePosition).y) - (transform.position.y);
+			//			Vector2 direction = new Vector2(XvelocityVector,YvelocityVector);
+			//			direction.Normalize();
+			//			Rigidbody  instanceBullet = Instantiate
+			//					(Bullet,
+			//				 transform.position, Quaternion.identity) as  Rigidbody ;
+			//			instanceBullet.rigidbody.AddForce(transform.forward *
+			//			                                  2f);
+		}
+		if (Input.GetMouseButtonDown (0)) {
+			animator.SetBool("Fire",true);
 		}
 		if (Input.GetMouseButtonUp (0)) {
 			animator.SetBool("Fire",false);
@@ -165,10 +168,10 @@ public class PlayerController : MonoBehaviour {
 		previous_loc = transform.position.y;
 		playerPhysics = GetComponent<PlayerPhysics>();
 		animator = GetComponent<Animator>();
-
-
+		
+		
 	}
-
+	
 	public void GetLoot(string loot){
 		Debug.Log ("CURLOOT : "+curMat + ";;;"+curFuel);
 		Debug.Log ("GETLOOT : "+loot);
@@ -185,7 +188,7 @@ public class PlayerController : MonoBehaviour {
 		}
 		Debug.Log ("CURLOOT : "+curMat + ";;;"+curFuel);
 	}
-
+	
 	public void Hurt(int damage){
 		Debug.Log ("IMMA GETTING DAMAGES "+damage);
 		curHP -= damage;
@@ -194,31 +197,34 @@ public class PlayerController : MonoBehaviour {
 	
 	void Update () {
 		float movedir = Input.GetAxisRaw("Horizontal");
-
-
+		
+		
 		ClimbUP (movedir);
 		ClimbDOWN (movedir);
 		Falling (previous_loc);
 		Crouch ();
 		Reload ();
 		Shoot ();
-
+		
 		previous_loc = location;
 		// Reset acceleration upon collision
 		if (playerPhysics.movementStopped) {
 			targetSpeed = 0;
 			currentSpeed = 0;
 		}
-		
+		// Jump Input
+		if (Input.GetButtonDown("Jump")) {
+			amountToMove.y = jumpHeight;
+			jumping = true;
+			animator.SetBool("Jumping",true);
+		}
+		else{
+			animator.SetBool ("Jumping",false);
+		}
 		// If player is touching the ground
 		if (playerPhysics.grounded) {
 			amountToMove.y = 0;
-			
-			// Jump logic
-			if (jumping) {
-				jumping = false;
-				animator.SetBool("Jumping",false);
-			}
+
 			
 			// Slide logic
 			if (sliding) {
@@ -230,12 +236,7 @@ public class PlayerController : MonoBehaviour {
 			}
 			
 			
-			// Jump Input
-			if (Input.GetButtonDown("Jump")) {
-				amountToMove.y = jumpHeight;
-				jumping = true;
-				animator.SetBool("Jumping",true);
-			}
+
 			
 			// Slide Input
 			if (Input.GetButtonDown("Slide")) {
@@ -279,11 +280,8 @@ public class PlayerController : MonoBehaviour {
 			currentSpeed = IncrementTowards(currentSpeed, targetSpeed,slideDeceleration);
 		}
 		
-		// Set amount to move
-		amountToMove.x = currentSpeed;
-		amountToMove.y -= gravity * Time.deltaTime;
-		playerPhysics.Move(amountToMove * Time.deltaTime);
 
+		
 	}
 	
 	// Increase n towards target by speed
@@ -297,5 +295,5 @@ public class PlayerController : MonoBehaviour {
 			return (dir == Mathf.Sign(target-n))? n: target; // if n has now passed target then return target, otherwise return n
 		}
 	}
-
+	
 }
