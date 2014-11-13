@@ -103848,6 +103848,7 @@ GameObject:
   - 114: {fileID: 1724436766}
   - 114: {fileID: 1724436765}
   - 54: {fileID: 1724436769}
+  - 65: {fileID: 1724436768}
   m_Layer: 0
   m_Name: Astronaut_Reduced_MA
   m_TagString: Untagged
@@ -103920,6 +103921,18 @@ Animator:
   m_ApplyRootMotion: 1
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!65 &1724436768
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1724436763}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &1724436769
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -127259,6 +127272,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 82977297bb91a1948bafca253c3aeaf1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  atkSound: {fileID: 0}
 --- !u!114 &2121764547
 MonoBehaviour:
   m_ObjectHideFlags: 0
