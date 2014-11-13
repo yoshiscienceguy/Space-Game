@@ -48,7 +48,6 @@
   <ItemGroup>
      <Compile Include="Assets\Astronaut\3D\Models\Astronauts\PlayerController.cs" />
      <Compile Include="Assets\Astronaut\3D\Scripts\Death.cs" />
-     <Compile Include="Assets\Astronaut\3D\Scripts\GameManager.cs" />
      <Compile Include="Assets\Astronaut\3D\Scripts\HideModel.cs" />
      <Compile Include="Assets\Astronaut\3D\Scripts\MobilePlatformController.cs" />
      <Compile Include="Assets\Astronaut\3D\Scripts\MovingPlatform.cs" />
