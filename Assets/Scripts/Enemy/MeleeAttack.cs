@@ -6,8 +6,8 @@ public class MeleeAttack : MonoBehaviour {
 	GameObject player;
 	public AudioClip atkSound;
 	private float nextAttack = 0.0F;
-	private float attackSpeed = 1f;
-	private int Damage = 1;
+	public float attackSpeed = 1f;
+	public int Damage = 1;
 
 	// Use this for initialization
 	void Start () {

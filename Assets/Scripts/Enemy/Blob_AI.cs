@@ -8,17 +8,11 @@ public class Blob_AI : MonoBehaviour {
 	private int mergeCount = 0;
 	private static int mergeLimit = 5;
 	public bool MasterBlob = false;
-	private GameObject[] blobs = null;
 	private BlobMoveScript ems;
 
 	// Use this for initialization
 	void Start () {
 		player = GameObject.FindWithTag("Player");
-		if (MasterBlob) {
-			blobs = GameObject.FindGameObjectsWithTag("AlienMeleeBlob");
-			Debug.Log("SLAVES : "+(blobs.Length-1));
-			//GameObject.FindObjectsOfType<Blob_AI>		
-		}
 		ems = GetComponent<BlobMoveScript>();
 	}
 
@@ -27,17 +21,34 @@ public class Blob_AI : MonoBehaviour {
 			GameObject closest = null;
 			float distance = 0.0f;
 			float closestDist = ems.Sight();
-			foreach(GameObject obj in blobs){
-				if(obj!=this){
+			foreach(GameObject obj in GameObject.FindGameObjectsWithTag("AlienMeleeBlob")){
+				if(obj!=this.gameObject){
 				distance = Vector3.Distance(obj.transform.position, transform.position);
-				//Debug.Log(distance + " "+ems.Sight());
-				if(closestDist<distance){
+				if(closestDist>distance){
 					closest = obj;
 					closestDist = distance;
 				}
 				}
 			}
-			Debug.Log(closestDist);
+			if(closest!=null){
+				BlobMoveScript close;
+				if(closestDist <2.0f){
+					Destroy(closest.gameObject);
+					Merge();
+					close = this.GetComponent<BlobMoveScript>();
+					close.SetMerge(false);
+				}else{
+				close = closest.GetComponent<BlobMoveScript>();
+				close.SetMerge(true);
+				close.SetMergeDirection(transform.position);
+				close = GetComponent<BlobMoveScript>();
+				close.SetMerge(true);
+				close.SetMergeDirection(closest.transform.position);
+				}
+			}else{
+				BlobMoveScript close = this.GetComponent<BlobMoveScript>();
+				close.SetMerge(false);
+			}
 		}
 
 	}
@@ -46,11 +57,15 @@ public class Blob_AI : MonoBehaviour {
 		mergeCount++;
 		if (mergeCount == mergeLimit) {
 			//call endgame
+			Debug.Log("BLOB IS TOO HUGE, GAME IS GONNA END");
 		} else {
+			this.GetComponent<BlobMoveScript>().moveSpeed*=1.5f;
+			//this.GetComponent<MeleeAttack>().attackSpeed*=1.5f;
+			this.GetComponent<MeleeAttack>().Damage*=2;
 			Vector3 size = transform.localScale;
-			size.x *= 2;
-			size.y *= 2;
-			size.z *= 2;
+			size.x *= 1.5f;
+			size.y *= 1.5f;
+			size.z *= 1.5f;
 			transform.localScale = size;
 		}
 	}
