@@ -22,7 +22,6 @@ public class MeleeAttack : MonoBehaviour {
 		if(distance < 3f) {
 			if(nextAttack<Time.time){
 				player.GetComponent<PlayerController>().Hurt(Damage);
-
 				audio.PlayOneShot(atkSound,0.5f);
 				nextAttack = Time.time+attackSpeed;
 			}

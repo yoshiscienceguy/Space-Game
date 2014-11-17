@@ -22,7 +22,7 @@ public class Blob_AI : MonoBehaviour {
 			float distance = 0.0f;
 			float closestDist = ems.Sight();
 			foreach(GameObject obj in GameObject.FindGameObjectsWithTag("AlienMeleeBlob")){
-				if(obj!=this.gameObject){
+				if(obj!=this.gameObject && obj.gameObject.GetComponent<Blob_AI>().MasterBlob!=true){
 				distance = Vector3.Distance(obj.transform.position, transform.position);
 				if(closestDist>distance){
 					closest = obj;
@@ -60,6 +60,11 @@ public class Blob_AI : MonoBehaviour {
 			Debug.Log("BLOB IS TOO HUGE, GAME IS GONNA END");
 		} else {
 			this.GetComponent<BlobMoveScript>().moveSpeed*=1.5f;
+			this.GetComponent<BlobMoveScript>().sight*=1.5f;
+			EnemyHealth eh = this.GetComponent<EnemyHealth>();
+			eh.HP=10+eh.GetMaxHP();
+			eh.SetMaxHP(eh.HP);
+			eh.maxLoot*=2;
 			//this.GetComponent<MeleeAttack>().attackSpeed*=1.5f;
 			this.GetComponent<MeleeAttack>().Damage*=2;
 			Vector3 size = transform.localScale;

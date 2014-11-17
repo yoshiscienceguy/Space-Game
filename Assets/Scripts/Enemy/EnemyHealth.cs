@@ -5,9 +5,14 @@ public class EnemyHealth : MonoBehaviour
 {
 
 		public int HP;
+	private int maxHP;
 		public int maxLoot;
 		public lootOptions Loot;
 	GUIText GUIDamage ;
+
+	void Start () {
+		maxHP = HP;
+	}
 
 		public enum lootOptions
 		{
@@ -29,6 +34,13 @@ public class EnemyHealth : MonoBehaviour
 		return loot;
 		}
 
+	public int GetMaxHP(){
+		return maxHP;
+	}
+
+	public void SetMaxHP(int value){
+		maxHP = value;
+	}
 		public void Hurt (int Damage)
 		{
 				Debug.Log ("DEALING DAMAGE TO!");

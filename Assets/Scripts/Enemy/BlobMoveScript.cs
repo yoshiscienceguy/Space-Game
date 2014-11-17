@@ -7,6 +7,8 @@ public class BlobMoveScript : MonoBehaviour {
 	private CharacterController character;
 	private bool sighted = false;
 	private bool merge = false;
+	public bool ChasePlayer = false;
+	private bool chase = false;
 	private Vector3 blobDir;
 	
 	private GameObject player;
@@ -20,7 +22,10 @@ public class BlobMoveScript : MonoBehaviour {
 	void PlayerinSight(){
 		float distance = Vector3.Distance(player.transform.position, transform.position);
 		if (distance <= sight) {
-			sighted = true;		
+			sighted = true;	
+			if(ChasePlayer){
+				chase=true;
+			}
 		} else {
 			sighted = false;		
 		}
@@ -52,7 +57,7 @@ public class BlobMoveScript : MonoBehaviour {
 			character.Move (move);
 		} else {
 			PlayerinSight ();
-			if (sighted) {
+			if (sighted || chase) {
 				Vector3 moveDirection = player.transform.position - transform.position;
 				moveDirection.Normalize ();
 				//Debug.Log ("move : "+moveDirection);
@@ -69,6 +74,14 @@ public class BlobMoveScript : MonoBehaviour {
 	}
 
 	void OnCollisionEnter(Collision collision){
+		if (collision.gameObject.name == "Blob") {
+						rigidbody.detectCollisions = false;
+						//this.collider.enabled = false;
+						//Physics.IgnoreCollision(this.collider,collision.gameObject.collider);
+				} else {
+			rigidbody.detectCollisions = true;
+			//this.collider.enabled = true;
+		}
 //		Debug.Log (collision.collider.tag);
 //			if (collision.gameObject.name=="Blob"){
 //			Blob_AI ai = collision.collider.GetComponent<Blob_AI>();
@@ -79,7 +92,6 @@ public class BlobMoveScript : MonoBehaviour {
 //			}
 //
 //		}
-
 	}
 
 
