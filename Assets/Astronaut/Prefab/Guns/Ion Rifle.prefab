@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100006
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400006}
+  - 137: {fileID: 13700000}
+  m_Layer: 0
+  m_Name: Ion Rifle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400006
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100006}
+  m_LocalRotation: {x: -.018693056, y: -.785167694, z: -.0312728845, w: .618210554}
+  m_LocalPosition: {x: -.845362663, y: .0702316314, z: -.165217832}
+  m_LocalScale: {x: .993447959, y: .993447959, z: .993447959}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!137 &13700000
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100006}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: 674e7fcb8ceb4904286cb67a71467ff2, type: 2}
+  - {fileID: 2100000, guid: 674e7fcb8ceb4904286cb67a71467ff2, type: 2}
+  - {fileID: 2100000, guid: 674e7fcb8ceb4904286cb67a71467ff2, type: 2}
+  - {fileID: 2100000, guid: 674e7fcb8ceb4904286cb67a71467ff2, type: 2}
+  - {fileID: 2100000, guid: 674e7fcb8ceb4904286cb67a71467ff2, type: 2}
+  - {fileID: 2100000, guid: 674e7fcb8ceb4904286cb67a71467ff2, type: 2}
+  - {fileID: 2100000, guid: 674e7fcb8ceb4904286cb67a71467ff2, type: 2}
+  - {fileID: 2100000, guid: 674e7fcb8ceb4904286cb67a71467ff2, type: 2}
+  - {fileID: 2100000, guid: 674e7fcb8ceb4904286cb67a71467ff2, type: 2}
+  - {fileID: 2100000, guid: 674e7fcb8ceb4904286cb67a71467ff2, type: 2}
+  - {fileID: 2100000, guid: 674e7fcb8ceb4904286cb67a71467ff2, type: 2}
+  - {fileID: 2100000, guid: 674e7fcb8ceb4904286cb67a71467ff2, type: 2}
+  - {fileID: 2100000, guid: cdcedf91b36bb644785234f0aab63e42, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_Mesh: {fileID: 4300044, guid: f4c76d0af5b222742b949770a249bfe1, type: 3}
+  m_Bones:
+  - {fileID: 0}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 0}
+  m_AABB:
+    m_Center: {x: -.0569174886, y: -.00183772296, z: .098186627}
+    m_Extent: {x: .320493251, y: .0857366771, z: .421434939}
+  m_DirtyAABB: 0
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100006}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

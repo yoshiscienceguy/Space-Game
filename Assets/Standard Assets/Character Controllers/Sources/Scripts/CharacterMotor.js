@@ -22,7 +22,7 @@ var inputJump : boolean = false;
 class CharacterMotorMovement {
 	// The maximum horizontal speed when moving
 	var maxForwardSpeed : float = 10.0;
-	var maxSidewaysSpeed : float = 10.0;
+	public var maxSidewaysSpeed : float = 10.0;
 	var maxBackwardsSpeed : float = 10.0;
 	
 	// Curve for multiplying speed based on slope (negative = downwards)
@@ -309,6 +309,13 @@ private function UpdateFunction () {
 }
 
 function FixedUpdate () {
+		if(Input.GetKeyDown(KeyCode.RightShift)){
+				movement.maxSidewaysSpeed = 20;
+			}
+		
+		if(Input.GetKeyUp(KeyCode.RightShift)){
+				movement.maxSidewaysSpeed = 3;
+			}
 	if (movingPlatform.enabled) {
 		if (movingPlatform.activePlatform != null) {
 			if (!movingPlatform.newPlatform) {
@@ -332,6 +339,7 @@ function FixedUpdate () {
 }
 
 function Update () {
+
 	if (!useFixedUpdate)
 		UpdateFunction();
 }
@@ -580,12 +588,7 @@ function MaxSpeedInDirection (desiredMovementDirection : Vector3) : float {
 
 function SetVelocity (velocity : Vector3) {
 	grounded = false;
-	if(Input.GetKeyDown("Run")){
-			movement.velocity = movement.velocity *20;
-		}
-	if(Input.GetKeyUp("Run")){
-			movement.velocity = movement.velocity;
-		}
+
 	movement.velocity = velocity;
 	movement.frameVelocity = Vector3.zero;
 	SendMessage("OnExternalVelocity");

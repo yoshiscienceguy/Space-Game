@@ -5,12 +5,12 @@
 public var idleAnimation : AnimationClip;
 public var walkAnimation : AnimationClip;
 public var runAnimation : AnimationClip;
-public var jumpPoseAnimation : AnimationClip;
+
 
 public var walkMaxAnimationSpeed : float = 0.75;
 public var trotMaxAnimationSpeed : float = 1.0;
 public var runMaxAnimationSpeed : float = 1.0;
-public var jumpAnimationSpeed : float = 1.15;
+
 public var landAnimationSpeed : float = 1.0;
 
 private var _animation : Animation;
@@ -41,7 +41,7 @@ var jumpHeight = 0.5;
 var gravity = 20.0;
 // The gravity in controlled descent mode
 var speedSmoothing = 10.0;
-var rotateSpeed = 500.0;
+var rotateSpeed = 0.0;
 var trotAfterSeconds = 3.0;
 
 var canJump = true;
@@ -116,11 +116,7 @@ public var jumpPoseAnimation : AnimationClip;
 		_animation = null;
 		Debug.Log("No run animation found. Turning off animations.");
 	}
-	if(!jumpPoseAnimation && canJump) {
-		_animation = null;
-		Debug.Log("No jump animation found and the character has canJump enabled. Turning off animations.");
-	}
-			
+	
 }
 
 
@@ -138,13 +134,11 @@ function UpdateSmoothedMovementDirection ()
 	// Always orthogonal to the forward vector
 	var right = Vector3(forward.z, 0, -forward.x);
 
-	var v = Input.GetAxisRaw("Vertical");
+	var v = 0;
 	var h = Input.GetAxisRaw("Horizontal");
 
 	// Are we moving backwards or looking backwards
-	if (v < -0.2)
-		movingBack = true;
-	else
+
 		movingBack = false;
 	
 	var wasMoving = isMoving;
@@ -174,7 +168,7 @@ function UpdateSmoothedMovementDirection ()
 			// Otherwise smoothly turn towards it
 			else
 			{
-				moveDirection = Vector3.RotateTowards(moveDirection, targetDirection, rotateSpeed * Mathf.Deg2Rad * Time.deltaTime, 1000);
+				moveDirection = Vector3.RotateTowards(moveDirection, targetDirection, rotateSpeed * Time.deltaTime, 1000);
 				
 				moveDirection = moveDirection.normalized;
 			}
@@ -319,20 +313,9 @@ function Update() {
 	
 	// ANIMATION sector
 	if(_animation) {
-		if(_characterState == CharacterState.Jumping) 
+		if(_characterState != CharacterState.Jumping) 
 		{
-			if(!jumpingReachedApex) {
-				_animation[jumpPoseAnimation.name].speed = jumpAnimationSpeed;
-				_animation[jumpPoseAnimation.name].wrapMode = WrapMode.ClampForever;
-				_animation.CrossFade(jumpPoseAnimation.name);
-			} else {
-				_animation[jumpPoseAnimation.name].speed = -landAnimationSpeed;
-				_animation[jumpPoseAnimation.name].wrapMode = WrapMode.ClampForever;
-				_animation.CrossFade(jumpPoseAnimation.name);				
-			}
-		} 
-		else 
-		{
+
 			if(controller.velocity.sqrMagnitude < 0.1) {
 				_animation.CrossFade(idleAnimation.name);
 			}
@@ -352,26 +335,12 @@ function Update() {
 				}
 				
 			}
-		}
+	}	
 	}
 	// ANIMATION sector
 	
 	// Set rotation to the move direction
-	if (IsGrounded())
-	{
-		
-		transform.rotation = Quaternion.LookRotation(moveDirection);
-			
-	}	
-	else
-	{
-		var xzMove = movement;
-		xzMove.y = 0;
-		if (xzMove.sqrMagnitude > 0.001)
-		{
-			transform.rotation = Quaternion.LookRotation(xzMove);
-		}
-	}	
+
 	
 	// We are in jump mode but just became grounded
 	if (IsGrounded())
@@ -420,7 +389,7 @@ function GetLockCameraTimer ()
 
 function IsMoving ()  : boolean
 {
-	return Mathf.Abs(Input.GetAxisRaw("Vertical")) + Mathf.Abs(Input.GetAxisRaw("Horizontal")) > 0.5;
+	return Mathf.Abs(0) + Mathf.Abs(Input.GetAxisRaw("Horizontal")) > 0.5;
 }
 
 function HasJumpReachedApex ()
