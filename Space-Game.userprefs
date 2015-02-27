@@ -1,11 +1,15 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Astronaut\3D\Scripts\GameManager.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Moverjs.js">
     <Files>
-      <File FileName="Assets\Astronaut\3D\Scripts\GameManager.cs" Line="6" Column="1" />
-      <File FileName="Assets\Standard Assets\Character Controllers\Sources\Scripts\FPSInputController.js" Line="1" Column="1" />
-      <File FileName="Assets\Astronaut\3D\Scripts\Proximity.cs" Line="1" Column="1" />
-      <File FileName="Assets\Astronaut\3D\Models\Astronauts\PlayerController.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\AmmoCount.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Alien_Health.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Gun.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\LevelOneChangeScript.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Death.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Player_Animation_Controller.cs" Line="55" Column="1" />
+      <File FileName="Assets\Scripts\ThirdPersonCharacter.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Moverjs.js" Line="2" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -4,12 +4,22 @@
 TagManager:
   tags:
   - Item
-  - Player2
+  - Melee
   - Changer
-  - Camera2
-  - Backgrounds
-  - 
+  - EnemyBullet
+  - Demious
+  - Enemy
   - AlienMeleeBlob
+  - Bullet
+  - MeleeEnemy
+  - BulletSkeleton
+  - NextLevel
+  - 
+  - 
+  - 
+  - 
+  - 
+  - indDoor
   - 
   Builtin Layer 0: Default
   Builtin Layer 1: TransparentFX
@@ -24,8 +34,8 @@ TagManager:
   User Layer 10: Floor
   User Layer 11: Background
   User Layer 12: Aliens
-  User Layer 13: 
-  User Layer 14: 
+  User Layer 13: Deimos
+  User Layer 14: None
   User Layer 15: 
   User Layer 16: 
   User Layer 17: 
@@ -60,11 +70,11 @@ TagManager:
     userID: 3
     uniqueID: 3940858523
     locked: 0
-  - name: UI
-    userID: 4
-    uniqueID: 771169021
-    locked: 0
   - name: Backgrounds
     userID: 5
     uniqueID: 3994933913
+    locked: 0
+  - name: UI
+    userID: 4
+    uniqueID: 771169021
     locked: 0

@@ -21,7 +21,7 @@ public class MeleeAttack : MonoBehaviour {
 		float direction = Vector3.Dot(dir, transform.forward);
 		if(distance < 3f) {
 			if(nextAttack<Time.time){
-				player.GetComponent<PlayerController>().Hurt(Damage);
+
 				audio.PlayOneShot(atkSound,0.5f);
 				nextAttack = Time.time+attackSpeed;
 			}

@@ -1,0 +1,138 @@
+fileFormatVersion: 2
+guid: 109f25567470d63429709ca70a7d219f
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: DR-Ceiling_3974
+    100004: DR-Ceiling_3974.Shape
+    100006: DR-Console_7931
+    100008: DR-Console_7931.Shape
+    100010: DR-Display_288
+    100012: DR-Display_288.Shape
+    100014: DR-DisplayUnit_4886
+    100016: DR-DisplayUnit_4886.Shape
+    100018: DR-DoorL_577
+    100020: DR-DoorL_577.Shape
+    100022: DR-DoorR_541
+    100024: DR-DoorR_541.Shape
+    100026: DR-Floor_Steps_575.Shape
+    100028: DR-MainWall_9959
+    100030: DR-MainWall_9959.Shape
+    100032: DR-WallBack_4842
+    100034: DR-WallBack_4842.Shape
+    100036: DR-WallL_5627
+    100038: DR-WallL_5627.Shape
+    100040: DR-WallR_2744
+    100042: DR-WallR_2744.Shape
+    400000: //RootNode
+    400002: DR-Ceiling_3974
+    400004: DR-Ceiling_3974.Shape
+    400006: DR-Console_7931
+    400008: DR-Console_7931.Shape
+    400010: DR-Display_288
+    400012: DR-Display_288.Shape
+    400014: DR-DisplayUnit_4886
+    400016: DR-DisplayUnit_4886.Shape
+    400018: DR-DoorL_577
+    400020: DR-DoorL_577.Shape
+    400022: DR-DoorR_541
+    400024: DR-DoorR_541.Shape
+    400026: DR-Floor_Steps_575.Shape
+    400028: DR-MainWall_9959
+    400030: DR-MainWall_9959.Shape
+    400032: DR-WallBack_4842
+    400034: DR-WallBack_4842.Shape
+    400036: DR-WallL_5627
+    400038: DR-WallL_5627.Shape
+    400040: DR-WallR_2744
+    400042: DR-WallR_2744.Shape
+    2300000: DR-Ceiling_3974.Shape
+    2300002: DR-Console_7931.Shape
+    2300004: DR-Display_288.Shape
+    2300006: DR-DisplayUnit_4886.Shape
+    2300008: DR-DoorL_577.Shape
+    2300010: DR-DoorR_541.Shape
+    2300012: DR-Floor_Steps_575.Shape
+    2300014: DR-MainWall_9959.Shape
+    2300016: DR-WallBack_4842.Shape
+    2300018: DR-WallL_5627.Shape
+    2300020: DR-WallR_2744.Shape
+    3300000: DR-Ceiling_3974.Shape
+    3300002: DR-Console_7931.Shape
+    3300004: DR-Display_288.Shape
+    3300006: DR-DisplayUnit_4886.Shape
+    3300008: DR-DoorL_577.Shape
+    3300010: DR-DoorR_541.Shape
+    3300012: DR-Floor_Steps_575.Shape
+    3300014: DR-MainWall_9959.Shape
+    3300016: DR-WallBack_4842.Shape
+    3300018: DR-WallL_5627.Shape
+    3300020: DR-WallR_2744.Shape
+    4300000: DR-Ceiling_3974.Shape
+    4300002: DR-WallBack_4842.Shape
+    4300004: DR-WallL_5627.Shape
+    4300006: DR-DoorL_577.Shape
+    4300008: DR-DoorR_541.Shape
+    4300010: DR-MainWall_9959.Shape
+    4300012: DR-Display_288.Shape
+    4300014: DR-DisplayUnit_4886.Shape
+    4300016: DR-WallR_2744.Shape
+    4300018: DR-Console_7931.Shape
+    4300020: DR-Floor_Steps_575.Shape
+    7400000: Animation
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

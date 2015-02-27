@@ -5,15 +5,35 @@
 public var idleAnimation : AnimationClip;
 public var walkAnimation : AnimationClip;
 public var runAnimation : AnimationClip;
-
-
+public var Gun_Barrels : GameObject;
+public var RedSuit : GameObject;
+public var Barrels_Crouch_offset : float;
+public var fuel: float = 100.0f;
+public var fuelBar : GameObject;
+public var fuelBarSize : float;
+public var crouchwalkspeed_divder : float = 3;
+public var crouchheight : float;
+public var newcenter : Vector3;
 public var walkMaxAnimationSpeed : float = 0.75;
 public var trotMaxAnimationSpeed : float = 1.0;
 public var runMaxAnimationSpeed : float = 1.0;
-
+var fuel_per_frame : float = 0;
 public var landAnimationSpeed : float = 1.0;
 
 private var _animation : Animation;
+private	var tempcontroller : CharacterController;
+private var originalheight : float;
+private var originaltransform : Vector3;
+@HideInInspector
+public var originalrunspeed : float;
+@HideInInspector
+public var originalwalkspeed : float;
+@HideInInspector
+public var	originaljumpHeight: float;
+@HideInInspector
+public var	originalgravity :float;
+private var	originalinAirControlAcceleration :float;
+private var save : boolean = false;
 
 enum CharacterState {
 	Idle = 0,
@@ -26,25 +46,25 @@ enum CharacterState {
 private var _characterState : CharacterState;
 
 // The speed when walking
-var walkSpeed = 2.0;
+public var walkSpeed = 2.0;
 // after trotAfterSeconds of walking we trot with trotSpeed
-var trotSpeed = 4.0;
+public var trotSpeed = 4.0;
 // when pressing "Fire3" button (cmd) we start running
-var runSpeed = 6.0;
+public var runSpeed = 6.0;
 
 var inAirControlAcceleration = 3.0;
 
 // How high do we jump when pressing jump and letting go immediately
-var jumpHeight = 0.5;
+public var jumpHeight = 0.5;
 
 // The gravity for the character
-var gravity = 20.0;
+public var gravity = 20.0;
 // The gravity in controlled descent mode
 var speedSmoothing = 10.0;
 var rotateSpeed = 0.0;
 var trotAfterSeconds = 3.0;
 
-var canJump = true;
+public var canJump = true;
 
 private var jumpRepeatTime = 0.05;
 private var jumpTimeout = 0.15;
@@ -89,14 +109,15 @@ private var lastGroundedTime = 0.0;
 
 
 private var isControllable = true;
-
+private var ps : ParticleSystem;
+	
 function Awake ()
 {
+
 	moveDirection = transform.TransformDirection(Vector3.forward);
 	
 	_animation = GetComponent(Animation);
-	if(!_animation)
-		Debug.Log("The character you would like to control doesn't have animations. Moving her might look weird.");
+
 	
 	/*
 public var idleAnimation : AnimationClip;
@@ -182,13 +203,33 @@ function UpdateSmoothedMovementDirection ()
 		var targetSpeed = Mathf.Min(targetDirection.magnitude, 1.0);
 	
 		_characterState = CharacterState.Idle;
-		
+
+
+		jumpHeight = originaljumpHeight;
+		gravity = originalgravity;
+		inAirControlAcceleration = originalinAirControlAcceleration;
+		ps.particleSystem.enableEmission = false;
 		// Pick speed modifier
 		if (Input.GetKey (KeyCode.LeftShift) || Input.GetKey (KeyCode.RightShift))
 		{
-			targetSpeed *= runSpeed;
-			_characterState = CharacterState.Running;
+			if(fuel > 0){
+				if(RedSuit.activeSelf == true){
+					fuel -= 5;
+					jumpHeight = 15;
+					gravity = 30;
+					inAirControlAcceleration = 10;
+				}
+
+			
+				ps.particleSystem.enableEmission = true;
+				targetSpeed *= runSpeed;
+				_characterState = CharacterState.Running;
+				fuel --;
+				
+			}
 		}
+
+		
 		else if (Time.time - trotAfterSeconds > walkTimeStart)
 		{
 			targetSpeed *= trotSpeed;
@@ -280,8 +321,63 @@ function DidJump ()
 	_characterState = CharacterState.Jumping;
 }
 
+
+
+function Start()
+{
+	ps = GetComponentInChildren(ParticleSystem);
+	ps.particleSystem.enableEmission = false;
+	tempcontroller = GetComponent(CharacterController);
+	originaltransform = transform.position;
+	originalheight = tempcontroller.height;
+	originalwalkspeed = walkSpeed;
+	originalrunspeed = runSpeed;
+	originaljumpHeight = jumpHeight;
+	originalgravity = gravity;
+	originalinAirControlAcceleration = inAirControlAcceleration;
+	fuelBarSize = fuelBar.transform.localScale.x;
+}
+
 function Update() {
+
+	if(!Input.GetKey(KeyCode.LeftShift)){
+		if(fuel < 100){
+			fuel += fuel_per_frame;
+			
+		}
+	}
 	
+	fuelBar.transform.localScale = new Vector3 (fuelBarSize * (fuel / 100f), fuelBar.transform.localScale.y, 0f);
+	if(transform.parent == null){
+		if(Input.GetKeyDown("c")){
+			originaltransform.y = transform.position.y;
+			Gun_Barrels.transform.position = new Vector3(Gun_Barrels.transform.position.x,Gun_Barrels.transform.position.y+Barrels_Crouch_offset,Gun_Barrels.transform.position.z);
+			walkSpeed = walkSpeed/crouchwalkspeed_divder;
+			trotSpeed = walkSpeed;
+			runSpeed = walkSpeed;
+			
+			tempcontroller.height = crouchheight;
+			tempcontroller.center = newcenter;
+		}
+		if(save == true){
+			originaltransform = Vector3(tempcontroller.transform.position.x,originaltransform.y,tempcontroller.transform.position.z);
+			tempcontroller.transform.position = originaltransform;
+			if(tempcontroller.height < originalheight){
+					tempcontroller.height += .1;
+			}
+			else{
+				save = false;
+			}
+		}
+		if(Input.GetKeyUp("c")){
+			Gun_Barrels.transform.position = new Vector3(Gun_Barrels.transform.position.x,Gun_Barrels.transform.position.y-Barrels_Crouch_offset,Gun_Barrels.transform.position.z);
+			walkSpeed = originalwalkspeed;
+			trotSpeed = walkSpeed + 2;
+			runSpeed = originalrunspeed;
+			save = true;
+
+		}
+	}
 	if (!isControllable)
 	{
 		// kill all inputs if not controllable.

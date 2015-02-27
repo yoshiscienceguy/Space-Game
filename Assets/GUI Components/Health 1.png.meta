@@ -1,0 +1,256 @@
+fileFormatVersion: 2
+guid: f1468c99f6fc5ad42a71e132a1844868
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Main_GUI
+    21300002: Health_BAR
+    21300004: Health 1_2
+    21300006: Health 1_3
+    21300008: Health 1_4
+    21300010: Health 1_5
+    21300012: Health 1_6
+    21300014: Health 1_7
+    21300016: Health 1_8
+    21300018: Health_Bar
+    21300020: Armor 1_10
+    21300022: Armor 1_11
+    21300024: Armor 1_12
+    21300026: Armor 1_13
+    21300028: Armor 1_14
+    21300030: Armor 1_15
+    21300032: Armor 1_16
+    21300034: Fuel_BAR
+    21300036: GAS 1_18
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Main_GUI
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 215
+        width: 514
+        height: 142
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Health_BAR
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 123
+        width: 230
+        height: 64
+      alignment: 9
+      pivot: {x: .0759380311, y: .493487358}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Health 1_2
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 153
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Health 1_3
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 153
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Health 1_4
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 153
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Health 1_5
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 152
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Health 1_6
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 152
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Health 1_7
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 153
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Health 1_8
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 152
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Health_Bar
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 55
+        width: 247
+        height: 62
+      alignment: 9
+      pivot: {x: .0663119107, y: .500000238}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Armor 1_10
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 77
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Armor 1_11
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 77
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Armor 1_12
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 77
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Armor 1_13
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 77
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Armor 1_14
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 77
+        width: 31
+        height: 33
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Armor 1_15
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 77
+        width: 31
+        height: 33
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Armor 1_16
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 77
+        width: 31
+        height: 33
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fuel_BAR
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 310
+        height: 49
+      alignment: 9
+      pivot: {x: .0509175472, y: .474481106}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GAS 1_18
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 10
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

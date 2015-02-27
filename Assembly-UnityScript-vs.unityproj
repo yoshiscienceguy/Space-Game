@@ -47,6 +47,11 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Astronaut\GUI Components\GUITestSkin.js" />
+     <Compile Include="Assets\GUI Components\GUITestSkin.js" />
+     <Compile Include="Assets\Scripts\Door_Delay_For_Animation.js" />
+     <Compile Include="Assets\Scripts\Moverjs.js" />
+     <Compile Include="Assets\Scripts\SimpleDoor.js" />
+     <None Include="Assets\Detonator Explosion Framework\Resources\Detonator\Textures\HeatDistort.shader" />
  <Reference Include="Assembly-UnityScript-firstpass">
  <HintPath>C:/Users/Fernando/Documents/GitHub/Space-Game/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
  </Reference>

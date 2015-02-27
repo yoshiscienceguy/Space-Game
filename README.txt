@@ -1,0 +1,1 @@
+go in models and unpack astronaut. the astronaut model is huge, just unpack it where the rar file is and you are good to go.

@@ -41,7 +41,7 @@ public class ThirdPersonCharacter : MonoBehaviour {
 	Vector3 moveInput;
 	bool crouchInput;
 	bool jumpInput;
-	float turnAmount;
+	float turnAmount = 0;
 	float forwardAmount;
 	Vector3 velocity;
 	IComparer rayHitComparer;

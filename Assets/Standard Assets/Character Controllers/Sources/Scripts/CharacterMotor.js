@@ -472,7 +472,7 @@ function OnControllerColliderHit (hit : ControllerColliderHit) {
 			groundNormal = hit.normal;
 		else
 			groundNormal = lastGroundNormal;
-		
+
 		movingPlatform.hitPlatform = hit.collider.transform;
 		movement.hitPoint = hit.point;
 		movement.frameVelocity = Vector3.zero;

@@ -29,19 +29,23 @@ function OnTriggerEnter(other : Collider){
 }	
 
 function OnTriggerStay (other : Collider){
-	if (doorIsOpen == false){
-		isBlocked = true ;
-		OpenDoor () ;
-		if (doorIsOpen == true) {
+	if(other.tag == "Player"){
+		if (doorIsOpen == false){
 			isBlocked = true ;
+			OpenDoor () ;
+			if (doorIsOpen == true) {
+				isBlocked = true ;
+			}
 		}
 	}
 }
 
 function OnTriggerExit (other : Collider){
-	if(isBlocked == true) {
-		isBlocked = false ;
-		doorTimer = 0.0 ;
+	if(other.tag =="Player"){
+		if(isBlocked == true) {
+			isBlocked = false ;
+			doorTimer = 0.0 ;
+		}
 	}
 }
 

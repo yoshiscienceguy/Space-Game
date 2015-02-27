@@ -1,0 +1,480 @@
+fileFormatVersion: 2
+guid: f49d025cd9b4b73488bc905e8be7f442
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: bridgeshell_22198
+    100002: bridgeshell_22198.Shape
+    100004: crew-seats_1030
+    100006: crew-seats_1030 1
+    100008: crew-seats_1030.Shape
+    100010: crew-seats_1030.Shape 1
+    100012: crew-seats_2676
+    100014: crew-seats_2676 1
+    100016: crew-seats_2676.Shape
+    100018: crew-seats_2676.Shape 1
+    100020: crew-seats_3615
+    100022: crew-seats_3615 1
+    100024: crew-seats_3615.Shape
+    100026: crew-seats_3615.Shape 1
+    100028: crew-seats_6046
+    100030: crew-seats_6046 1
+    100032: crew-seats_6046 2
+    100034: crew-seats_6046 3
+    100036: crew-seats_6046 4
+    100038: crew-seats_6046 5
+    100040: crew-seats_6046.Shape
+    100042: crew-seats_6046.Shape 1
+    100044: crew-seats_6046.Shape 2
+    100046: crew-seats_6046.Shape 3
+    100048: crew-seats_6046.Shape 4
+    100050: crew-seats_6046.Shape 5
+    100052: crew-seats_630
+    100054: crew-seats_630 1
+    100056: crew-seats_630 2
+    100058: crew-seats_630 3
+    100060: crew-seats_630.Shape
+    100062: crew-seats_630.Shape 1
+    100064: crew-seats_630.Shape 2
+    100066: crew-seats_630.Shape 3
+    100068: crew-seats_924
+    100070: crew-seats_924 1
+    100072: crew-seats_924.Shape
+    100074: crew-seats_924.Shape 1
+    100076: lowerdeck_1000
+    100078: lowerdeck_1000 1
+    100080: lowerdeck_1000.Shape
+    100082: lowerdeck_1000.Shape 1
+    100084: lowerdeck_2974
+    100086: lowerdeck_2974 1
+    100088: lowerdeck_2974.Shape
+    100090: lowerdeck_2974.Shape 1
+    100092: lowerdeck_310
+    100094: lowerdeck_310 1
+    100096: lowerdeck_310.Shape
+    100098: lowerdeck_310.Shape 1
+    100100: lowerdeck_3622
+    100102: lowerdeck_3622.Shape
+    100104: lowerdeck_4314
+    100106: lowerdeck_4314 1
+    100108: lowerdeck_4314.Shape
+    100110: lowerdeck_4314.Shape 1
+    100112: //RootNode
+    100114: upperdeck_25717
+    100116: upperdeck_25717.Shape
+    100118: upperdeck_5271
+    100120: upperdeck_5271.Shape
+    100122: upperdeck_6046
+    100124: upperdeck_6046.Shape
+    100126: upperdeck_630
+    100128: upperdeck_630.Shape
+    100130: Bridge_Shell
+    100132: Door
+    100134: Door_Frame
+    100136: Lower_Shell
+    100138: Upper_Shell
+    400000: bridgeshell_22198
+    400002: bridgeshell_22198.Shape
+    400004: crew-seats_1030
+    400006: crew-seats_1030 1
+    400008: crew-seats_1030.Shape
+    400010: crew-seats_1030.Shape 1
+    400012: crew-seats_2676
+    400014: crew-seats_2676 1
+    400016: crew-seats_2676.Shape
+    400018: crew-seats_2676.Shape 1
+    400020: crew-seats_3615
+    400022: crew-seats_3615 1
+    400024: crew-seats_3615.Shape
+    400026: crew-seats_3615.Shape 1
+    400028: crew-seats_6046
+    400030: crew-seats_6046 1
+    400032: crew-seats_6046 2
+    400034: crew-seats_6046 3
+    400036: crew-seats_6046 4
+    400038: crew-seats_6046 5
+    400040: crew-seats_6046.Shape
+    400042: crew-seats_6046.Shape 1
+    400044: crew-seats_6046.Shape 2
+    400046: crew-seats_6046.Shape 3
+    400048: crew-seats_6046.Shape 4
+    400050: crew-seats_6046.Shape 5
+    400052: crew-seats_630
+    400054: crew-seats_630 1
+    400056: crew-seats_630 2
+    400058: crew-seats_630 3
+    400060: crew-seats_630.Shape
+    400062: crew-seats_630.Shape 1
+    400064: crew-seats_630.Shape 2
+    400066: crew-seats_630.Shape 3
+    400068: crew-seats_924
+    400070: crew-seats_924 1
+    400072: crew-seats_924.Shape
+    400074: crew-seats_924.Shape 1
+    400076: lowerdeck_1000
+    400078: lowerdeck_1000 1
+    400080: lowerdeck_1000.Shape
+    400082: lowerdeck_1000.Shape 1
+    400084: lowerdeck_2974
+    400086: lowerdeck_2974 1
+    400088: lowerdeck_2974.Shape
+    400090: lowerdeck_2974.Shape 1
+    400092: lowerdeck_310
+    400094: lowerdeck_310 1
+    400096: lowerdeck_310.Shape
+    400098: lowerdeck_310.Shape 1
+    400100: lowerdeck_3622
+    400102: lowerdeck_3622.Shape
+    400104: lowerdeck_4314
+    400106: lowerdeck_4314 1
+    400108: lowerdeck_4314.Shape
+    400110: lowerdeck_4314.Shape 1
+    400112: //RootNode
+    400114: upperdeck_25717
+    400116: upperdeck_25717.Shape
+    400118: upperdeck_5271
+    400120: upperdeck_5271.Shape
+    400122: upperdeck_6046
+    400124: upperdeck_6046.Shape
+    400126: upperdeck_630
+    400128: upperdeck_630.Shape
+    400130: Bridge_Shell
+    400132: Door
+    400134: Door_Frame
+    400136: Lower_Shell
+    400138: Upper_Shell
+    2300000: bridgeshell_22198.Shape
+    2300002: crew-seats_1030.Shape
+    2300004: crew-seats_1030.Shape 1
+    2300006: crew-seats_2676.Shape
+    2300008: crew-seats_2676.Shape 1
+    2300010: crew-seats_3615.Shape
+    2300012: crew-seats_3615.Shape 1
+    2300014: crew-seats_6046.Shape
+    2300016: crew-seats_6046.Shape 1
+    2300018: crew-seats_6046.Shape 2
+    2300020: crew-seats_6046.Shape 3
+    2300022: crew-seats_6046.Shape 4
+    2300024: crew-seats_6046.Shape 5
+    2300026: crew-seats_630.Shape
+    2300028: crew-seats_630.Shape 1
+    2300030: crew-seats_630.Shape 2
+    2300032: crew-seats_630.Shape 3
+    2300034: crew-seats_924.Shape
+    2300036: crew-seats_924.Shape 1
+    2300038: lowerdeck_1000.Shape
+    2300040: lowerdeck_1000.Shape 1
+    2300042: lowerdeck_2974.Shape
+    2300044: lowerdeck_2974.Shape 1
+    2300046: lowerdeck_310.Shape
+    2300048: lowerdeck_310.Shape 1
+    2300050: lowerdeck_3622.Shape
+    2300052: lowerdeck_4314.Shape
+    2300054: lowerdeck_4314.Shape 1
+    2300056: upperdeck_25717.Shape
+    2300058: upperdeck_5271.Shape
+    2300060: upperdeck_6046.Shape
+    2300062: upperdeck_630.Shape
+    2300064: Bridge_Shell
+    2300066: Door
+    2300068: Door_Frame
+    2300070: Lower_Shell
+    2300072: Upper_Shell
+    3300000: bridgeshell_22198.Shape
+    3300002: crew-seats_1030.Shape
+    3300004: crew-seats_1030.Shape 1
+    3300006: crew-seats_2676.Shape
+    3300008: crew-seats_2676.Shape 1
+    3300010: crew-seats_3615.Shape
+    3300012: crew-seats_3615.Shape 1
+    3300014: crew-seats_6046.Shape
+    3300016: crew-seats_6046.Shape 1
+    3300018: crew-seats_6046.Shape 2
+    3300020: crew-seats_6046.Shape 3
+    3300022: crew-seats_6046.Shape 4
+    3300024: crew-seats_6046.Shape 5
+    3300026: crew-seats_630.Shape
+    3300028: crew-seats_630.Shape 1
+    3300030: crew-seats_630.Shape 2
+    3300032: crew-seats_630.Shape 3
+    3300034: crew-seats_924.Shape
+    3300036: crew-seats_924.Shape 1
+    3300038: lowerdeck_1000.Shape
+    3300040: lowerdeck_1000.Shape 1
+    3300042: lowerdeck_2974.Shape
+    3300044: lowerdeck_2974.Shape 1
+    3300046: lowerdeck_310.Shape
+    3300048: lowerdeck_310.Shape 1
+    3300050: lowerdeck_3622.Shape
+    3300052: lowerdeck_4314.Shape
+    3300054: lowerdeck_4314.Shape 1
+    3300056: upperdeck_25717.Shape
+    3300058: upperdeck_5271.Shape
+    3300060: upperdeck_6046.Shape
+    3300062: upperdeck_630.Shape
+    3300064: Bridge_Shell
+    3300066: Door
+    3300068: Door_Frame
+    3300070: Lower_Shell
+    3300072: Upper_Shell
+    4300000: bridgeshell_22198.Shape
+    4300002: crew-seats_924.Shape
+    4300004: crew-seats_6046.Shape
+    4300006: crew-seats_630.Shape
+    4300008: crew-seats_6046.Shape
+    4300010: crew-seats_630.Shape
+    4300012: crew-seats_3615.Shape
+    4300014: crew-seats_6046.Shape
+    4300016: crew-seats_1030.Shape
+    4300018: crew-seats_2676.Shape
+    4300020: crew-seats_924.Shape
+    4300022: crew-seats_6046.Shape
+    4300024: crew-seats_630.Shape
+    4300026: crew-seats_6046.Shape
+    4300028: crew-seats_630.Shape
+    4300030: crew-seats_3615.Shape
+    4300032: crew-seats_6046.Shape
+    4300034: crew-seats_1030.Shape
+    4300036: crew-seats_2676.Shape
+    4300038: lowerdeck_1000.Shape
+    4300040: lowerdeck_4314.Shape
+    4300042: lowerdeck_310.Shape
+    4300044: lowerdeck_2974.Shape
+    4300046: lowerdeck_1000.Shape
+    4300048: lowerdeck_4314.Shape
+    4300050: lowerdeck_310.Shape
+    4300052: lowerdeck_2974.Shape
+    4300054: lowerdeck_3622.Shape
+    4300056: upperdeck_6046.Shape
+    4300058: upperdeck_630.Shape
+    4300060: upperdeck_5271.Shape
+    4300062: upperdeck_25717.Shape
+    4300064: Door
+    4300066: Bridge_Shell
+    4300068: Door_Frame
+    4300070: Upper_Shell
+    4300072: Lower_Shell
+    7400000: Animation
+    7400002: UpperDeck_Open
+    9500000: //RootNode
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: UpperDeck_Open
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: crew-seats_630
+        weight: 1
+      - path: crew-seats_630/crew-seats_630.Shape 1
+        weight: 1
+      - path: crew-seats_630/crew-seats_6046 1
+        weight: 1
+      - path: crew-seats_630/crew-seats_6046 1/crew-seats_6046.Shape 2
+        weight: 1
+      - path: crew-seats_630 1
+        weight: 1
+      - path: crew-seats_630 1/crew-seats_630.Shape
+        weight: 1
+      - path: crew-seats_630 1/crew-seats_6046
+        weight: 1
+      - path: crew-seats_630 1/crew-seats_6046/crew-seats_924
+        weight: 1
+      - path: crew-seats_630 1/crew-seats_6046/crew-seats_924/crew-seats_924.Shape
+        weight: 1
+      - path: crew-seats_630 1/crew-seats_6046/crew-seats_6046.Shape 1
+        weight: 1
+      - path: crew-seats_630 2
+        weight: 1
+      - path: crew-seats_630 2/crew-seats_630.Shape 2
+        weight: 1
+      - path: crew-seats_630 2/crew-seats_6046 3
+        weight: 1
+      - path: crew-seats_630 2/crew-seats_6046 3/crew-seats_6046.Shape
+        weight: 1
+      - path: crew-seats_630 3
+        weight: 1
+      - path: crew-seats_630 3/crew-seats_630.Shape 3
+        weight: 1
+      - path: crew-seats_630 3/crew-seats_6046 2
+        weight: 1
+      - path: crew-seats_630 3/crew-seats_6046 2/crew-seats_924 1
+        weight: 1
+      - path: crew-seats_630 3/crew-seats_6046 2/crew-seats_924 1/crew-seats_924.Shape
+          1
+        weight: 1
+      - path: crew-seats_630 3/crew-seats_6046 2/crew-seats_6046.Shape 3
+        weight: 1
+      - path: crew-seats_2676
+        weight: 1
+      - path: crew-seats_2676/crew-seats_1030
+        weight: 1
+      - path: crew-seats_2676/crew-seats_1030/crew-seats_1030.Shape 1
+        weight: 1
+      - path: crew-seats_2676/crew-seats_1030/crew-seats_3615
+        weight: 1
+      - path: crew-seats_2676/crew-seats_1030/crew-seats_3615/crew-seats_3615.Shape
+          1
+        weight: 1
+      - path: crew-seats_2676/crew-seats_1030/crew-seats_6046 5
+        weight: 1
+      - path: crew-seats_2676/crew-seats_1030/crew-seats_6046 5/crew-seats_6046.Shape
+          4
+        weight: 1
+      - path: crew-seats_2676/crew-seats_2676.Shape 1
+        weight: 1
+      - path: crew-seats_2676 1
+        weight: 1
+      - path: crew-seats_2676 1/crew-seats_1030 1
+        weight: 1
+      - path: crew-seats_2676 1/crew-seats_1030 1/crew-seats_1030.Shape
+        weight: 1
+      - path: crew-seats_2676 1/crew-seats_1030 1/crew-seats_3615 1
+        weight: 1
+      - path: crew-seats_2676 1/crew-seats_1030 1/crew-seats_3615 1/crew-seats_3615.Shape
+        weight: 1
+      - path: crew-seats_2676 1/crew-seats_1030 1/crew-seats_6046 4
+        weight: 1
+      - path: crew-seats_2676 1/crew-seats_1030 1/crew-seats_6046 4/crew-seats_6046.Shape
+          5
+        weight: 1
+      - path: crew-seats_2676 1/crew-seats_2676.Shape
+        weight: 1
+      - path: Door
+        weight: 1
+      - path: Door_Frame
+        weight: 1
+      - path: Lower_Shell
+        weight: 1
+      - path: lowerdeck_3622
+        weight: 1
+      - path: lowerdeck_3622/lowerdeck_2974
+        weight: 1
+      - path: lowerdeck_3622/lowerdeck_2974/lowerdeck_310
+        weight: 1
+      - path: lowerdeck_3622/lowerdeck_2974/lowerdeck_310/lowerdeck_310.Shape 1
+        weight: 1
+      - path: lowerdeck_3622/lowerdeck_2974/lowerdeck_310/lowerdeck_4314
+        weight: 1
+      - path: lowerdeck_3622/lowerdeck_2974/lowerdeck_310/lowerdeck_4314/lowerdeck_4314.Shape
+          1
+        weight: 1
+      - path: lowerdeck_3622/lowerdeck_2974/lowerdeck_1000
+        weight: 1
+      - path: lowerdeck_3622/lowerdeck_2974/lowerdeck_1000/lowerdeck_1000.Shape
+        weight: 1
+      - path: lowerdeck_3622/lowerdeck_2974/lowerdeck_2974.Shape 1
+        weight: 1
+      - path: lowerdeck_3622/lowerdeck_2974 1
+        weight: 1
+      - path: lowerdeck_3622/lowerdeck_2974 1/lowerdeck_310 1
+        weight: 1
+      - path: lowerdeck_3622/lowerdeck_2974 1/lowerdeck_310 1/lowerdeck_310.Shape
+        weight: 1
+      - path: lowerdeck_3622/lowerdeck_2974 1/lowerdeck_310 1/lowerdeck_4314 1
+        weight: 1
+      - path: lowerdeck_3622/lowerdeck_2974 1/lowerdeck_310 1/lowerdeck_4314 1/lowerdeck_4314.Shape
+        weight: 1
+      - path: lowerdeck_3622/lowerdeck_2974 1/lowerdeck_1000 1
+        weight: 1
+      - path: lowerdeck_3622/lowerdeck_2974 1/lowerdeck_1000 1/lowerdeck_1000.Shape
+          1
+        weight: 1
+      - path: lowerdeck_3622/lowerdeck_2974 1/lowerdeck_2974.Shape
+        weight: 1
+      - path: lowerdeck_3622/lowerdeck_3622.Shape
+        weight: 1
+      - path: Upper_Shell
+        weight: 1
+      - path: upperdeck_25717
+        weight: 1
+      - path: upperdeck_25717/upperdeck_5271
+        weight: 1
+      - path: upperdeck_25717/upperdeck_5271/upperdeck_630
+        weight: 1
+      - path: upperdeck_25717/upperdeck_5271/upperdeck_630/upperdeck_630.Shape
+        weight: 1
+      - path: upperdeck_25717/upperdeck_5271/upperdeck_630/upperdeck_6046
+        weight: 1
+      - path: upperdeck_25717/upperdeck_5271/upperdeck_630/upperdeck_6046/upperdeck_6046.Shape
+        weight: 1
+      - path: upperdeck_25717/upperdeck_5271/upperdeck_5271.Shape
+        weight: 1
+      - path: upperdeck_25717/upperdeck_25717.Shape
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 

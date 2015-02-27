@@ -61,10 +61,7 @@ public class Blob_AI : MonoBehaviour {
 		} else {
 			this.GetComponent<BlobMoveScript>().moveSpeed*=1.5f;
 			this.GetComponent<BlobMoveScript>().sight*=1.5f;
-			EnemyHealth eh = this.GetComponent<EnemyHealth>();
-			eh.HP=10+eh.GetMaxHP();
-			eh.SetMaxHP(eh.HP);
-			eh.maxLoot*=2;
+
 			//this.GetComponent<MeleeAttack>().attackSpeed*=1.5f;
 			this.GetComponent<MeleeAttack>().Damage*=2;
 			Vector3 size = transform.localScale;
